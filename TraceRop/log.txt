@@ -1,1351 +1,759 @@
                        FunctionExit                                           #
+
                        Ret            s0[CanBeTaggedValue_Int].var!           #007e 
+
     s0[CanBeTaggedValue_Int].var = ToVar  s107(s0).i32!                       #007e 
+
                        StatementBoundary  #-1                                 #007e 
 
 
+
+
+
   Line  19: }
+
   Col    1: ^
+
                        StatementBoundary  #16                                 #007e 
+
     s107(s0).i32    =  Add_I4         s106(s61).i32!, s94(s50).i32!           #0075 
+
     s106(s61).i32   =  Add_I4         s105(s60).i32!, s91(s31).i32!           #0071 
+
     s105(s60).i32   =  Add_I4         s104(s59).i32!, s90(s30).i32!           #006d 
+
     s104(s59).i32   =  Add_I4         s103(s58).i32!, s88(s28).i32!           #0069 
+
     s103(s58).i32   =  Add_I4         s102(s57).i32!, s87(s27).i32!           #0065 
+
     s102(s57).i32   =  Add_I4         s101(s56).i32!, s86(s26).i32!           #0061 
+
     s101(s56).i32   =  Add_I4         s100(s55).i32!, s85(s25).i32!           #005d 
+
     s100(s55).i32   =  Add_I4         s99(s54).i32!, s84(s24).i32!            #0059 
+
     s99(s54).i32    =  Add_I4         s98(s53).i32!, s83(s23).i32!            #0055 
+
     s98(s53).i32    =  Add_I4         s97(s52).i32!, s82(s22).i32!            #0051 
+
     s97(s52).i32    =  Add_I4         s96(s51).i32!, s81(s21).i32!            #004d 
+
     s96(s51).i32    =  Add_I4         s79(s19).i32!, s80(s20).i32!            #0049 
 
 
+
+
+
   Line  18: return ecx + r9d + r8d + edi + esi + edx + r15d + r14d + r13d + r12d + r1 + r2 + s;
+
   Col    4: ^
+
                        StatementBoundary  #15                                 #0049 
+
     s94(s50).i32    =  Sub_I4         s93(s49).i32!, 61 (0x3D).i32            #0042 
 
 
+
+
+
   Line  17: let s = eax + ebx * 2 - 0x3d; 
+
   Col    5: ^
+
                        StatementBoundary  #14                                 #003a 
+
     s91(s31).i32    =  And_I4         s91(s31).i32!, 35 (0x23).i32            #0036 
 
 
+
+
+
   Line  16: r2 &= 0x23;
+
   Col    5: ^
+
                        StatementBoundary  #13                                 #0036 
+
     s90(s30).i32    =  And_I4         s90(s30).i32!, 34 (0x22).i32            #0032 
 
 
+
+
+
   Line  15: r1 &= 0x22;
+
   Col    5: ^
+
                        StatementBoundary  #12                                 #0032 
+
     s89(s29).i32    =  And_I4         s89(s29).i32!, 33 (0x21).i32            #002e 
 
 
+
+
+
   Line  14: ebx &= 0x21;
+
   Col    5: ^
+
                        StatementBoundary  #11                                 #002e 
+
     s88(s28).i32    =  And_I4         s88(s28).i32!, 32 (0x20).i32            #002a 
 
 
+
+
+
   Line  13: r12d &= 0x20;
+
   Col    5: ^
+
                        StatementBoundary  #10                                 #002a 
+
     s87(s27).i32    =  And_I4         s87(s27).i32!, 25 (0x19).i32            #0026 
 
 
+
+
+
   Line  12: r13d &= 0x19;
+
   Col    5: ^
-                       StatementBoundary  #9                                                         FunctionExit # 0026   
-          s86 (s26) . i32         =     And_I4                  s86 (s26) . i32 ! ,   24 (0x18) . i32        # 
-          #  0022   
-            
 
-  Line  11:    r 14Ret d   & =   0 x 1 8 ; 
-   Col    5: ^
-       132 (0x84) . i32                            StatementBoundary    #8                    #    0085   
-                  #0022   
-          s85 (s25) . i32         =     And_I4          StLoopBodyCount     s26s85.(s25)i32.!i32 ! ,   23 (0x17) . i32                         # 001e   
-        #0085 
+                       StatementBoundary  #9                                  #0026 
+
+    s86(s26).i32    =  And_I4         s86(s26).i32!, 24 (0x18).i32            #0022 
 
 
-  Line  10: r15d &= 0x 1 7 ; 
-s28(  Col    5: ^
-s27  l[65] )        [CanBeTaggedValue_Int] . var !   =    StSlot    s21  StatementBoundary [CanBeTaggedValue_Int] .#7var !   # 0085   
-                               s21 #001e[CanBeTaggedValue_Int] .
-var  =   ToVar   s84s80(s24)(s21)..i32i32 !      =     And_I4                  s84 (s24) . i32 ! ,   22 (0x16)#.i320085   
-          #001a 
-     
-
-  Line   9:          e d x   & =   0 x 16StatementBoundary ; 
-#-1  Col    5: ^
-                                               StatementBoundary    #6              # 0084   
-                                              # 001aStatementBoundary   
-#4         s83 (s23) . i32         =     And_I4                  s83 (s23) . i32 ! ,   21 (0x15) . i32# 0084   
-                 # 0016   
-          
-
-  Line   8:   eSpeculatedLoadFence s i   & =   0 x 1 5 ; 
-    Col    5: ^
-                                            # 0084StatementBoundary   
-#5                                                       Br     #  0016   
-          $L1s82 (s22) . i32         =     And_I4                  s82 (s22) . i32 ! ,   20 (0x14) . i32                # 007f   
- #0012  
-   s80(s21).i32
-
-  Line   7:     =  Add_I4 e d i   & =   0 xs801(s21)4.;i32
-!  Col    5: ^
-,    1 (0x1) . i32                             # 007c   
-StatementBoundary  #4                          
-
-  Line  22:         #i0012+ +
-)
-    Col   29: ^
-    s81 (s21) . i32         =     And_I4                  s81 (s21)StatementBoundary . i32#3! ,   19 (0x13) . i32                         # 000e   
-      
-
-  Line   6:    r 8 d   &#=007c  0
-x13 ; 
-    Col    5: ^
-                                       CallI       StatementBoundary    #3         s23              [LikelyCanBeTaggedValue_Object] . var ! ,   arg15 (s45) <112> . var !   # 0072  #
-000e 
-    s80(s20).i32    =  And_I4         s80(s20).i32!, 18 (0x12).i32            #000a 
 
 
-  Line   5: r9d &= 0x12;
-  Col    5: ^
-                       StatementBoundary  #2                                  #000a 
-    s79(s19).i32    =  And_I4         s79(s19).i32!, 17 (0x11).i32            #0006 
-
-
-  Line   4: ecx &= 0x11;
-  Col    5: ^
-                       StatementBoundary  #1                                  #0006 
-    s78(s18).i32    =  And_I4         s78(s18).i32!,  16 (0x10) . i32   s30 . var                # 0002=  
- LoweredStartCall      15 (0xF)s91.(s31)i32. i32         =     FromVar                s31       [LikelyCanBeTaggedValue_Int] .#var!002a   
-  # 0002     Bailout: #0002s23 (BailOutOnNotPrimitive)
-[LikelyCanBeTaggedValue_Object].var = LdRootMethodFld  s29(s1[Object]->jsc58c3)<0,m,~-,s?,s?>[LikelyCanBeTaggedValue_Object].var! #0024 
-
-
-  Line  24: jsc58c3(0xc0, 0xc1, 0xc2, 0xc3,  0 x c 4,s90 (s30)0.xi32c 5 ,   0=x c 6FromVar ,   0 x c 7 ,  s300xc8[LikelyCanBeTaggedValue_Int],. var0 x c 9 ,  #00002x c 1Bailout: #00020 (BailOutOnNotPrimitive),
- 0xc11, 0xc12, 0xc13);
-  Col    2: ^
-                       StatementBoundary  #2                                  #0024 
-        s89 (s29) . i32         =     FromVar                s29BrGe_I4    [LikelyCanBeTaggedValue_Int] . var     $L8 ,  s80#(s21)0002. i32 , Bailout: #000265536 (0x10000) (BailOutOnNotPrimitive).
-i32  #001c 
-    s26.i32         =  IncrLoopBodyCount  s26.i32!                            #001c 
-    s88(s28).i32    
-
-  Line  22: =  FromVar i   <   0 x 1 0s28000[LikelyCanBeTaggedValue_Int];. vari + + ) 
- #  Col   16: ^
-0002     Bailout: #0002  (BailOutOnNotPrimitive) 
-                  StatementBoundary  #1                                  #001c 
-                       BailTarget            s87 (s27) . i32         =     FromVar                s27    [LikelyCanBeTaggedValue_Int] . var           #  0002     Bailout: #0002  (BailOutOnNotPrimitive)#
-      Bailout: #001c (BailOutShared)
-    s80(s21).i32    =  FromVar        s21[LikelyCanBeTaggedValue_Int].var     #      Bailout: #001c (BailOutIntOnly)
-    s86(s26).i32    =  FromVar        s26[LikelyCanBeTaggedValue_Int].var     #0002  Bailout: #0002 (BailOutOnNotPrimitive)
-       s26 .s85var(s25) . i32         =    =FromVar      InitLoopBodyCount         s25     [LikelyCanBeTaggedValue_Int] . var           # 0002     Bailout: #0002   (BailOutOnNotPrimitive) 
-             #001a 
-    s19[Undefined].var = Ld_A         0xXXXXXXXX (undefined)[Undefined].var   #
-    s1[Object] . var    =s84 (s24) .Ld_A i32         =     FromVar     0xXXXXXXXX   (GlobalObject)   s24[Object].var[LikelyCanBeTaggedValue_Int] . var  # 
-   #0002     Bailout: #0002  (BailOutOnNotPrimitive)s21
-[LikelyCanBeTaggedValue_Int].var = LdSlot  s28(s27l[65])[LikelyCanBeTaggedValue_Int].var! #
-    s27.u64         =  ArgIn_A        prm1<32>.var!                s83 (s23) . i32         =     FromVar         # 
-  s23[LikelyCanBeTaggedValue_Int] . var           # 0002     Bailout: #0002  (BailOutOnNotPrimitive) 
-         FunctionEntry                                          #
-    s82(s22).i32    =  FromVar        s22[LikelyCanBeTaggedValue_Int].var     #0002  Bailout: #0002 (BailOutOnNotPrimitive)
-    s81(s21).i32    =  FromVar        s21[LikelyCanBeTaggedValue_Int].var     #0002  Bailout: #0002 (BailOutOnNotPrimitive)
-    s80(s20).i32    =  FromVar        s20[LikelyCanBeTaggedValue_Int].var     #0002  Bailout: #0002 (BailOutOnNotPrimitive)
-    s79(s19).i32    =  FromVar        s19[LikelyCanBeTaggedValue_Int].var     #0002  Bailout: #0002 (BailOutOnNotPrimitive)
-    s78(s18).i32    =  FromVar        s18[LikelyCanBeTaggedValue_Int].var     #0002  Bailout: #0002 (BailOutOnNotPrimitive)
-
-
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0                                  #0002 
-    s31[LikelyCanBeTaggedValue_Int].var = ArgIn_A  prm15<144>[LikelyCanBeTaggedValue_Int].var! #
-                       FunctionEntry                                          #
------------------------------------------------------------------------------
-Function Global code ( (#1.0), #1)                Instr Count:175		Size:750
-
-7FD369E00000           FunctionEntry  
-7FD369E00001   (rax).i64 = MOV        0x556DF821C810 (&StackLimit).u64
-7FD369E0000B   (rax).i64 = MOV        [(rax).i64].i64
-7FD369E0000E   (rax).i64 = ADD        (rax).i64, 7392 (0x1CE0).i64
-7FD369E00015           CMP            (rsp).i64, (rax).i64
-7FD369E00018           JLE            $L19
-7FD369E0001E           NOP            3 (0x3).i8
-7FD369E00021           NOP            4 (0x4).i8
-7FD369E00025           NOP            4 (0x4).i8
-7FD369E00029           NOP            2 (0x2).i8
-7FD369E0002B           PrologStart    
-7FD369E0002B           PUSH           (rbp).i64
-7FD369E0002D   (rbp).i64 = MOV        (rsp).i64
-7FD369E00030   (rsp).i64 = SUB        (rsp).i64, 144 (0x90).i64
-7FD369E00037           PUSH           (r15).i64
-7FD369E00039           PUSH           (r14).i64
-7FD369E0003B           PUSH           (r13).i64
-7FD369E0003D           PUSH           (r12).i64
-7FD369E0003F           PUSH           (rbx).i64
-7FD369E00041   (rsp).i64 = SUB        (rsp).i64, 152 (0x98).i64
-7FD369E00048           PrologEnd      
-7FD369E00048   s107(rbx).u64 = MOV    0x1000000000C13.var
-7FD369E00052   s107<-48>.u64 = MOV    s107(rbx).u64
-7FD369E00056   s100(r12).u64 = MOV    0x7FD36AF51DF4 (Unknown).u64
-7FD369E00060   s100<-24>.u64 = MOV    s100(r12).u64
-7FD369E00064   s27(r13).u64 = MOV     prm1<32>.var!
-7FD369E00068   s27<-8>.u64 = MOV      s27(r13).u64
-7FD369E0006C   s21(r14)[LikelyCanBeTaggedValue_Int].var = MOV  [s27(r13).u64+520].var
-7FD369E00073   s21<-16>.var = MOV     s21(r14).var
-7FD369E00077   s26(r15).i32 = XOR     s26(r15).i32, s26(r15).i32
-7FD369E0007A   s128(rax)[LikelyCanBeTaggedValue_Int].var = MOV  s21(r14)[LikelyCanBeTaggedValue_Int].var
-7FD369E0007D   s129(rcx).i64 = MOV    s128(rax)[LikelyCanBeTaggedValue_Int].var
-7FD369E00080   s129(rcx).i64 = SHR    s129(rcx).i64, 48 (0x30).i8
-7FD369E00084           CMP            s129(rcx).i64, 1 (0x1).i32
-7FD369E00088           NOP            
-7FD369E00089           JNE            $L17
-7FD369E0008F   s80(s21)(r13).i32 = MOV_TRUNC  s128(rax)[LikelyCanBeTaggedValue_Int].i32
-7FD369E00092  $L1: >>>>>>>>>>>>>  LOOP TOP  >>>>>>>>>>>>> Implicit call: no
-7FD369E00092  
-
-  Line  22: i < 0x10000; i++)
-  Col   16: ^
-                       StatementBoundary  #1
-7FD369E00092   [s100(r12).u64-16899084 <0x7FD369F341E8 (Unknown)>].u32 = MOV  s26(r15).i32
-7FD369E0009A   s26(r15).i32 = INC     s26(r15).i32!
-7FD369E0009D           CMP            s80(s21)(r13).i32, 65536 (0x10000).i32
-7FD369E000A4           JGE            $L18
-7FD369E000AA  
-
-  Line  24: jsc58c3(0xc0, 0xc1, 0xc2, 0xc3, 0xc4, 0xc5, 0xc6, 0xc7, 0xc8, 0xc9, 0xc10, 0xc11, 0xc12, 0xc13);
-  Col    2: ^
-                       StatementBoundary  #2
-7FD369E000AA   s127(rax).u64 = MOV    [s100(r12).u64+8732 <0x7FD36AF54010 (Unknown)>].u64
-7FD369E000B2   s23(rdi)[LikelyCanBeTaggedValue_Object].var = MOV  [s127(rax).u64+80].var
-7FD369E000B6   s120(rcx).u64 = LEA    [s107(rbx).u64-2899 <0x10000000000C0>].u64
-7FD369E000BD   s120<-40>.u64 = MOV    s120(rcx).u64
-7FD369E000C1   s119(r8).u64 = LEA     [s107(rbx).u64-2898 <0x10000000000C1>].u64
-7FD369E000C8   s119<-56>.u64 = MOV    s119(r8).u64
-7FD369E000CC   s118(r9).u64 = LEA     [s107(rbx).u64-2897 <0x10000000000C2>].u64
-7FD369E000D3   s117(rax).u64 = LEA    [s107(rbx).u64-2896 <0x10000000000C3>].u64
-7FD369E000DA   s116(rdx).u64 = LEA    [s107(rbx).u64-2895 <0x10000000000C4>].u64
-7FD369E000E1   s115(rsi).u64 = LEA    [s107(rbx).u64-2894 <0x10000000000C5>].u64
-7FD369E000E8   s114(r10).u64 = LEA    [s107(rbx).u64-2893 <0x10000000000C6>].u64
-7FD369E000EF   s113(r11).u64 = LEA    [s107(rbx).u64-2892 <0x10000000000C7>].u64
-7FD369E000F6   s112(r14).u64 = LEA    [s107(rbx).u64-2891 <0x10000000000C8>].u64
-7FD369E000FD   s112<-64>.u64 = MOV    s112(r14).u64
-7FD369E00101   s111(r12).u64 = LEA    [s107(rbx).u64-2890 <0x10000000000C9>].u64
-7FD369E00108   s26<-32>.var = MOV     s26(r15).var
-7FD369E0010C   s110(r15).u64 = LEA    [s107(rbx).u64-3 <0x1000000000C10>].u64
-7FD369E00110   s109(rcx).u64 = LEA    [s107(rbx).u64-2 <0x1000000000C11>].u64
-7FD369E00114   s108(rbx).u64 = LEA    [s107(rbx).u64-1 <0x1000000000C12>].u64
-7FD369E00118   s102(r8).i64 = MOV     s23(rdi)[LikelyCanBeTaggedValue_Object].var!
-7FD369E0011B   s102(r8).i64 = SHR     s102(r8).i64, 48 (0x30).i8
-7FD369E0011F           JNE            $L9
-7FD369E00125  $L10:
-7FD369E00125   s106(r8).i64 = MOV     [s23(rdi)[LikelyCanBeTaggedValue_Object].var+8].i64
-7FD369E00129   s106(r8).i64 = MOV     [s106(r8).i64+24].u64
-7FD369E0012D   s106<-72>.i64 = MOV    s106(r8).i64
-7FD369E00131   s107(r14).u64 = MOV    s107<-48>.u64
-7FD369E00135   arg15(s45)<128>.var = MOV  s107(r14).u64
-7FD369E0013D   arg14(s44)<120>.var = MOV  s108(rbx).u64
-7FD369E00142   arg13(s43)<112>.var = MOV  s109(rcx).u64
-7FD369E00147   arg12(s42)<104>.var = MOV  s110(r15).u64
-7FD369E0014C   arg11(s41)<96>.var = MOV  s111(r12).u64
-7FD369E00151   s112(rcx).u64 = MOV    s112<-64>.u64
-7FD369E00155   arg10(s40)<88>.var = MOV  s112(rcx).u64
-7FD369E0015A   arg9(s39)<80>.var = MOV  s113(r11).u64
-7FD369E0015F   arg8(s38)<72>.var = MOV  s114(r10).u64
-7FD369E00164   arg7(s37)<64>.var = MOV  s115(rsi).u64
-7FD369E00169   arg6(s36)<56>.var = MOV  s116(rdx).u64
-7FD369E0016E   arg5(s35)<48>.var = MOV  s117(rax).u64
-7FD369E00173   s119(r11).u64 = MOV    s119<-56>.u64
-7FD369E00177   arg3(s33)(r8).var = MOV  s119(r11).u64
-7FD369E0017A   s120(r10).u64 = MOV    s120<-40>.u64
-7FD369E0017E   arg2(s32)(rcx).var = MOV  s120(r10).u64
-7FD369E00181   arg1(s31)(rdx).var = MOV  0x7FD36AF55030 (undefined)[Undefined].var
-7FD369E0018B   (rsi).i64 = MOV        268435471 (0x1000000F).i64
-7FD369E00192   arg6(s121)<40>.u64 = MOV  (r9).u64
-7FD369E00197   arg5(s122)<32>.u64 = MOV  (r8).u64
-7FD369E0019C   arg4(s123)<24>.u64 = MOV  (rcx).u64
-7FD369E001A1   arg3(s124)<16>.u64 = MOV  (rdx).u64
-7FD369E001A6   arg2(s125)<8>.u64 = MOV  (rsi).u64
-7FD369E001AB   arg1(s126)<0>.u64 = MOV  (rdi).u64
-7FD369E001AF   s106(rax).i64 = MOV    s106<-72>.i64
-7FD369E001B3           CALL           s106(rax).i64
-7FD369E001B6  
-
-  Line  22: i++)
-  Col   29: ^
-                       StatementBoundary  #3
-7FD369E001B6   s80(s21)(r13).i32 = INC  s80(s21)(r13).i32!
-7FD369E001B9   s107(rbx).i64 = MOV    s107(r14).i64
-7FD369E001BC   s100(r12).u64 = MOV    s100<-24>.u64
-7FD369E001C0   s26(r15).var = MOV     s26<-32>.var
-7FD369E001C4           JMP            $L1
-7FD369E001C9  $L18:
-7FD369E001C9   s26<-32>.var = MOV     s26(r15).var
-7FD369E001CD           StatementBoundary  #4
-7FD369E001CD           StatementBoundary  #-1
-7FD369E001CD   s101(rax).i32 = MOV_TRUNC  s80(s21)(r13).i32
-7FD369E001D0   s101(rax).var = BTS    s101(rax).var, 48 (0x30).i8
-7FD369E001D5   s21(rbx)[CanBeTaggedValue_Int].var = MOV  s101(rax).var
-7FD369E001D8   s27(r11).u64 = MOV     s27<-8>.u64
-7FD369E001DC   [s27(r11).u64+520].var = MOV  s21(rbx)[CanBeTaggedValue_Int].var!
-7FD369E001E3   s26(r10).var = MOV     s26<-32>.var
-7FD369E001E7   s100(r9).u64 = MOV     s100<-24>.u64
-7FD369E001EB   [s100(r9).u64 <0x7FD36AF51DF4 (Unknown)>].u32 = MOV  s26(r10).u32
-7FD369E001EE   s99(rax).i64 = MOV     132 (0x84).i64
-7FD369E001F5  $L13 (Epilogue):
-7FD369E001F5   (rsp).i64 = ADD        (rsp).i64, 152 (0x98).i64
-7FD369E001FC   (rbx).i64 = POP        
-7FD369E001FE   (r12).i64 = POP        
-7FD369E00200   (r13).i64 = POP        
-7FD369E00202   (r14).i64 = POP        
-7FD369E00204   (r15).i64 = POP        
-7FD369E00206   (rsp).i64 = MOV        (rbp).i64
-7FD369E00209   (rbp).i64 = POP        
-7FD369E0020B           RET            0 (0x0).i32, (rax).i64
-7FD369E0020C           FunctionExit   
-7FD369E0020C           StatementBoundary  #-1
-7FD369E0020C  $L17: [helper]
-7FD369E0020C   s130(rdi).var = MOV    s21(r14)[LikelyCanBeTaggedValue_Int].var
-7FD369E0020F   s133(rax).u64 = MOV    GetNonzeroInt32Value_NoTaggedIntCheck.u64
-7FD369E00219   s131(rax).i32 = CALL   s133(rax).u64
-7FD369E0021C   s80(s21)(r13).i32 = MOV  s131(rax).i32
-7FD369E0021F           TEST           s80(s21)(r13).i32, s80(s21)(r13).i32
-7FD369E00222           JNE            $L1
-7FD369E00228  $L16: [helper]
-7FD369E00228   [s100(r12).u64-183830600 <0x7FD3600015AC (&BailOutKind)>].u32 = MOV  1 (0x1).u32
-7FD369E00234   [s100(r12).u64-183830604 <0x7FD3600015A8 (Unknown)>].u32 = MOV  4294967295 (0xFFFFFFFF).u32
-7FD369E00240   s134(rax).u64 = LEA    [s100(r12).u64-17018356 <0x7FD369F17000 (FunctionBody [Global code (#1.0), #1])>].u64
-7FD369E00248   [s100(r12).u64-183830572 <0x7FD3600015C8 (Unknown)>].u64 = MOV  s134(rax).u64
-7FD369E00250  $L12: [helper]
-7FD369E00250   (rdi).u64 = MOV        0x7FD360001568 (BailOutRecord).u64
-7FD369E0025A   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E00264           CALL           (rax).u64                                      Bailout: #001c (BailOutShared)
-7FD369E00267           JMP            $L13
-7FD369E00269  
-
-  Line  24: jsc58c3(0xc0, 0xc1, 0xc2, 0xc3, 0xc4, 0xc5, 0xc6, 0xc7, 0xc8, 0xc9, 0xc10, 0xc11, 0xc12, 0xc13);
-  Col    2: ^
-                       StatementBoundary  #2
-7FD369E00269  $L9: [helper]
-7FD369E00269   s142<-136>.i64 = MOV   (rdi).i64
-7FD369E00270   s141<-128>.i64 = MOV   (rcx).i64
-7FD369E00274   s140<-120>.i64 = MOV   (r11).i64
-7FD369E00278   s139<-112>.i64 = MOV   (r10).i64
-7FD369E0027C   s138<-104>.i64 = MOV   (rsi).i64
-7FD369E00280   s137<-96>.i64 = MOV    (rdx).i64
-7FD369E00284   s136<-88>.i64 = MOV    (rax).i64
-7FD369E00288   s135<-80>.i64 = MOV    (r9).i64
-7FD369E0028C   arg2(s103)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E00296   arg1(s104)(rdi).u32 = MOV  -2146823286 (0xFFFFFFFF800A138A).u32
-7FD369E0029B   s105(rax).u64 = MOV    Op_RuntimeTypeError.u64
-7FD369E002A5           CALL           s105(rax).u64
-7FD369E002A8   (r9).i64 = MOV         s135<-80>.i64
-7FD369E002AC   (rax).i64 = MOV        s136<-88>.i64
-7FD369E002B0   (rdx).i64 = MOV        s137<-96>.i64
-7FD369E002B4   (rsi).i64 = MOV        s138<-104>.i64
-7FD369E002B8   (r10).i64 = MOV        s139<-112>.i64
-7FD369E002BC   (r11).i64 = MOV        s140<-120>.i64
-7FD369E002C0   (rcx).i64 = MOV        s141<-128>.i64
-7FD369E002C4   (rdi).i64 = MOV        s142<-136>.i64
-7FD369E002CB           JMP            $L10
-7FD369E002D0           StatementBoundary  #-1
-7FD369E002D0  $L19: [helper]
-7FD369E002D0   (rsi).i64 = MOV        0x556DF824EA18 (ScriptContext).u64
-7FD369E002DA   (rdi).i64 = MOV        7392 (0x1CE0).i64
-7FD369E002E1   (rax).i64 = MOV        ProbeCurrentStack.u64
-7FD369E002EB           JMP            (rax).i64
-7FD369E002EE           StatementBoundary  #-1
------------------------------------------------------------------------------
-Function jsc58c3 ( (#1.1), #2)                    Instr Count:860		Size:3818
-
-7FD369E01000           FunctionEntry  
-7FD369E01000   (rax).i64 = MOV        0x556DF821C810 (&StackLimit).u64
-7FD369E0100A   (rax).i64 = MOV        [(rax).i64].i64
-7FD369E0100D   (rax).i64 = ADD        (rax).i64, 7376 (0x1CD0).i64
-7FD369E01014           CMP            (rsp).i64, (rax).i64
-7FD369E01017           JLE            $L76
-7FD369E0101D           NOP            4 (0x4).i8
-7FD369E01021           NOP            2 (0x2).i8
-7FD369E01023           PrologStart    
-7FD369E01023           PUSH           (rbp).i64
-7FD369E01025   (rbp).i64 = MOV        (rsp).i64
-7FD369E01028   (rsp).i64 = SUB        (rsp).i64, 224 (0xE0).i64
-7FD369E0102F           PUSH           (r15).i64
-7FD369E01031           PUSH           (r14).i64
-7FD369E01033           PUSH           (r13).i64
-7FD369E01035           PUSH           (r12).i64
-7FD369E01037           PUSH           (rbx).i64
-7FD369E01039   (rsp).i64 = SUB        (rsp).i64, 56 (0x38).i64
-7FD369E0103D           PrologEnd      
-7FD369E0103D   s268(rax).u64 = MOV    0x7FD369F1810C (&CallCount).u64
-7FD369E01047   [s268(rax).u64].u32 = INC  [s268(rax).u64].u32
-7FD369E01049   s266(rax).i64 = MOV    callInfo<24>.i64
-7FD369E0104D   s266(rax).i64 = AND    s266(rax).i64, 16777215 (0xFFFFFF).i64
-7FD369E01054   s266(rax).i64 = SUB    s266(rax).i64, 15 (0xF).i64
-7FD369E01058           JLT            $L47
-7FD369E0105E  $L48:
-7FD369E0105E   s31(rax)[LikelyCanBeTaggedValue_Int].var = MOV  prm15<144>[LikelyCanBeTaggedValue_Int].var!
-7FD369E01065   s31<-24>.var = MOV     s31(rax).var
-7FD369E01069  $L49:
-7FD369E01069   s30(r12)[LikelyCanBeTaggedValue_Int].var = MOV  prm14<136>[LikelyCanBeTaggedValue_Int].var!
-7FD369E01070  $L50:
-7FD369E01070   s29(r13)[LikelyCanBeTaggedValue_Int].var = MOV  prm13<128>[LikelyCanBeTaggedValue_Int].var!
-7FD369E01077  $L51:
-7FD369E01077   s28(r14)[LikelyCanBeTaggedValue_Int].var = MOV  prm12<120>[LikelyCanBeTaggedValue_Int].var!
-7FD369E0107B  $L52:
-7FD369E0107B   s27(r15)[LikelyCanBeTaggedValue_Int].var = MOV  prm11<112>[LikelyCanBeTaggedValue_Int].var!
-7FD369E0107F  $L53:
-7FD369E0107F   s26(rdx)[LikelyCanBeTaggedValue_Int].var = MOV  prm10<104>[LikelyCanBeTaggedValue_Int].var!
-7FD369E01083  $L54:
-7FD369E01083   s25(rsi)[LikelyCanBeTaggedValue_Int].var = MOV  prm9<96>[LikelyCanBeTaggedValue_Int].var!
-7FD369E01087  $L55:
-7FD369E01087   s24(rdi)[LikelyCanBeTaggedValue_Int].var = MOV  prm8<88>[LikelyCanBeTaggedValue_Int].var!
-7FD369E0108B  $L56:
-7FD369E0108B   s23(r8)[LikelyCanBeTaggedValue_Int].var = MOV  prm7<80>[LikelyCanBeTaggedValue_Int].var!
-7FD369E0108F  $L57:
-7FD369E0108F   s22(r9)[LikelyCanBeTaggedValue_Int].var = MOV  prm6<72>[LikelyCanBeTaggedValue_Int].var!
-7FD369E01093  $L58:
-7FD369E01093   s21(r10)[LikelyCanBeTaggedValue_Int].var = MOV  prm5<64>[LikelyCanBeTaggedValue_Int].var!
-7FD369E01097  $L59:
-7FD369E01097   s20(r11)[LikelyCanBeTaggedValue_Int].var = MOV  prm4<56>[LikelyCanBeTaggedValue_Int].var!
-7FD369E0109B  $L60:
-7FD369E0109B           NOP            2 (0x2).i8
-7FD369E0109D   s19(rbx)[LikelyCanBeTaggedValue_Int].var = MOV  prm3<48>[LikelyCanBeTaggedValue_Int].var!
-7FD369E010A1  $L61:
-7FD369E010A1   s18(rcx)[LikelyCanBeTaggedValue_Int].var = MOV  prm2<40>[LikelyCanBeTaggedValue_Int].var!
-7FD369E010A5  $L62:
-7FD369E010A5  
-
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E010A5   s18<-32>.var = MOV     s18(rcx).var
-7FD369E010A9   s255(rax).i64 = MOV    s254(rcx)[LikelyCanBeTaggedValue_Int].var
-7FD369E010AC   s255(rax).i64 = SHR    s255(rax).i64, 48 (0x30).i8
-7FD369E010B0           CMP            s255(rax).i64, 1 (0x1).i32
-7FD369E010B4           JNE            $L44
-7FD369E010BA   s78(s18)(rax).i32 = MOV_TRUNC  s254(rcx)[LikelyCanBeTaggedValue_Int].i32
-7FD369E010BC  $L45:
-7FD369E010BC   s243(rcx)[LikelyCanBeTaggedValue_Int].var = MOV  s19(rbx)[LikelyCanBeTaggedValue_Int].var
-7FD369E010BF   s19<-56>.var = MOV     s19(rbx).var
-7FD369E010C3   s244(rbx).i64 = MOV    s243(rcx)[LikelyCanBeTaggedValue_Int].var
-7FD369E010C6   s244(rbx).i64 = SHR    s244(rbx).i64, 48 (0x30).i8
-7FD369E010CA           CMP            s244(rbx).i64, 1 (0x1).i32
-7FD369E010CE           JNE            $L41
-7FD369E010D4   s79(s19)(rbx).i32 = MOV_TRUNC  s243(rcx)[LikelyCanBeTaggedValue_Int].i32
-7FD369E010D6  $L42:
-7FD369E010D6   s232(rcx)[LikelyCanBeTaggedValue_Int].var = MOV  s20(r11)[LikelyCanBeTaggedValue_Int].var
-7FD369E010D9   s20<-64>.var = MOV     s20(r11).var
-7FD369E010DD   s233(r11).i64 = MOV    s232(rcx)[LikelyCanBeTaggedValue_Int].var
-7FD369E010E0   s233(r11).i64 = SHR    s233(r11).i64, 48 (0x30).i8
-7FD369E010E4           CMP            s233(r11).i64, 1 (0x1).i32
-7FD369E010E8           JNE            $L38
-7FD369E010EE   s80(s20)(rcx).i32 = MOV_TRUNC  s232(rcx)[LikelyCanBeTaggedValue_Int].i32
-7FD369E010F0  $L39:
-7FD369E010F0   s221(r11)[LikelyCanBeTaggedValue_Int].var = MOV  s21(r10)[LikelyCanBeTaggedValue_Int].var
-7FD369E010F3   s21<-72>.var = MOV     s21(r10).var
-7FD369E010F7   s222(r10).i64 = MOV    s221(r11)[LikelyCanBeTaggedValue_Int].var
-7FD369E010FA   s222(r10).i64 = SHR    s222(r10).i64, 48 (0x30).i8
-7FD369E010FE           CMP            s222(r10).i64, 1 (0x1).i32
-7FD369E01102           JNE            $L35
-7FD369E01108   s81(s21)(r10).i32 = MOV_TRUNC  s221(r11)[LikelyCanBeTaggedValue_Int].i32
-7FD369E0110B  $L36:
-7FD369E0110B   s210(r11)[LikelyCanBeTaggedValue_Int].var = MOV  s22(r9)[LikelyCanBeTaggedValue_Int].var
-7FD369E0110E   s22<-80>.var = MOV     s22(r9).var
-7FD369E01112   s211(r9).i64 = MOV     s210(r11)[LikelyCanBeTaggedValue_Int].var
-7FD369E01115   s211(r9).i64 = SHR     s211(r9).i64, 48 (0x30).i8
-7FD369E01119           CMP            s211(r9).i64, 1 (0x1).i32
-7FD369E0111D           JNE            $L32
-7FD369E01123   s82(s22)(r9).i32 = MOV_TRUNC  s210(r11)[LikelyCanBeTaggedValue_Int].i32
-7FD369E01126  $L33:
-7FD369E01126   s199(r11)[LikelyCanBeTaggedValue_Int].var = MOV  s23(r8)[LikelyCanBeTaggedValue_Int].var
-7FD369E01129   s23<-88>.var = MOV     s23(r8).var
-7FD369E0112D   s200(r8).i64 = MOV     s199(r11)[LikelyCanBeTaggedValue_Int].var
-7FD369E01130   s200(r8).i64 = SHR     s200(r8).i64, 48 (0x30).i8
-7FD369E01134           CMP            s200(r8).i64, 1 (0x1).i32
-7FD369E01138           JNE            $L29
-7FD369E0113E   s83(s23)(r8).i32 = MOV_TRUNC  s199(r11)[LikelyCanBeTaggedValue_Int].i32
-7FD369E01141  $L30:
-7FD369E01141   s188(r11)[LikelyCanBeTaggedValue_Int].var = MOV  s24(rdi)[LikelyCanBeTaggedValue_Int].var
-7FD369E01144   s24<-96>.var = MOV     s24(rdi).var
-7FD369E01148   s189(rdi).i64 = MOV    s188(r11)[LikelyCanBeTaggedValue_Int].var
-7FD369E0114B   s189(rdi).i64 = SHR    s189(rdi).i64, 48 (0x30).i8
-7FD369E0114F           CMP            s189(rdi).i64, 1 (0x1).i32
-7FD369E01153           JNE            $L26
-7FD369E01159   s84(s24)(rdi).i32 = MOV_TRUNC  s188(r11)[LikelyCanBeTaggedValue_Int].i32
-7FD369E0115C  $L27:
-7FD369E0115C   s177(r11)[LikelyCanBeTaggedValue_Int].var = MOV  s25(rsi)[LikelyCanBeTaggedValue_Int].var
-7FD369E0115F   s25<-104>.var = MOV    s25(rsi).var
-7FD369E01163   s178(rsi).i64 = MOV    s177(r11)[LikelyCanBeTaggedValue_Int].var
-7FD369E01166   s178(rsi).i64 = SHR    s178(rsi).i64, 48 (0x30).i8
-7FD369E0116A           CMP            s178(rsi).i64, 1 (0x1).i32
-7FD369E0116E           JNE            $L23
-7FD369E01174   s85(s25)(rsi).i32 = MOV_TRUNC  s177(r11)[LikelyCanBeTaggedValue_Int].i32
-7FD369E01177  $L24:
-7FD369E01177   s166(r11)[LikelyCanBeTaggedValue_Int].var = MOV  s26(rdx)[LikelyCanBeTaggedValue_Int].var
-7FD369E0117A   s26<-112>.var = MOV    s26(rdx).var
-7FD369E0117E   s167(rdx).i64 = MOV    s166(r11)[LikelyCanBeTaggedValue_Int].var
-7FD369E01181   s167(rdx).i64 = SHR    s167(rdx).i64, 48 (0x30).i8
-7FD369E01185           CMP            s167(rdx).i64, 1 (0x1).i32
-7FD369E01189           JNE            $L20
-7FD369E0118F   s86(s26)(rdx).i32 = MOV_TRUNC  s166(r11)[LikelyCanBeTaggedValue_Int].i32
-7FD369E01192  $L21:
-7FD369E01192   s155(r11)[LikelyCanBeTaggedValue_Int].var = MOV  s27(r15)[LikelyCanBeTaggedValue_Int].var
-7FD369E01195   s27<-120>.var = MOV    s27(r15).var
-7FD369E01199   s156(r15).i64 = MOV    s155(r11)[LikelyCanBeTaggedValue_Int].var
-7FD369E0119C   s156(r15).i64 = SHR    s156(r15).i64, 48 (0x30).i8
-7FD369E011A0           CMP            s156(r15).i64, 1 (0x1).i32
-7FD369E011A4           JNE            $L17
-7FD369E011AA   s87(s27)(r15).i32 = MOV_TRUNC  s155(r11)[LikelyCanBeTaggedValue_Int].i32
-7FD369E011AD  $L18:
-7FD369E011AD   s144(r11)[LikelyCanBeTaggedValue_Int].var = MOV  s28(r14)[LikelyCanBeTaggedValue_Int].var
-7FD369E011B0   s28<-128>.var = MOV    s28(r14).var
-7FD369E011B4   s145(r14).i64 = MOV    s144(r11)[LikelyCanBeTaggedValue_Int].var
-7FD369E011B7   s145(r14).i64 = SHR    s145(r14).i64, 48 (0x30).i8
-7FD369E011BB           CMP            s145(r14).i64, 1 (0x1).i32
-7FD369E011BF           JNE            $L14
-7FD369E011C5   s88(s28)(r14).i32 = MOV_TRUNC  s144(r11)[LikelyCanBeTaggedValue_Int].i32
-7FD369E011C8  $L15:
-7FD369E011C8   s133(r11)[LikelyCanBeTaggedValue_Int].var = MOV  s29(r13)[LikelyCanBeTaggedValue_Int].var
-7FD369E011CB   s29<-136>.var = MOV    s29(r13).var
-7FD369E011D2   s134(r13).i64 = MOV    s133(r11)[LikelyCanBeTaggedValue_Int].var
-7FD369E011D5   s134(r13).i64 = SHR    s134(r13).i64, 48 (0x30).i8
-7FD369E011D9           CMP            s134(r13).i64, 1 (0x1).i32
-7FD369E011DD           JNE            $L11
-7FD369E011E3   s89(s29)(r13).i32 = MOV_TRUNC  s133(r11)[LikelyCanBeTaggedValue_Int].i32
-7FD369E011E6  $L12:
-7FD369E011E6   s122(r11)[LikelyCanBeTaggedValue_Int].var = MOV  s30(r12)[LikelyCanBeTaggedValue_Int].var
-7FD369E011E9   s30<-144>.var = MOV    s30(r12).var
-7FD369E011F0   s123(r12).i64 = MOV    s122(r11)[LikelyCanBeTaggedValue_Int].var
-7FD369E011F3   s123(r12).i64 = SHR    s123(r12).i64, 48 (0x30).i8
-7FD369E011F7           CMP            s123(r12).i64, 1 (0x1).i32
-7FD369E011FB           JNE            $L8
-7FD369E01201           NOP            3 (0x3).i8
-7FD369E01204   s90(s30)(r12).i32 = MOV_TRUNC  s122(r11)[LikelyCanBeTaggedValue_Int].i32
-7FD369E01207  $L9:
-7FD369E01207   s31(r11).var = MOV     s31<-24>.var
-7FD369E0120B   s110<-40>.var = MOV    s110(r11).var
-7FD369E0120F   s111(r11).i64 = SHR    s111(r11).i64, 48 (0x30).i8
-7FD369E01213           CMP            s111(r11).i64, 1 (0x1).i32
-7FD369E01217           JNE            $L4
-7FD369E0121D   s110(r11).var = MOV    s110<-40>.var
-7FD369E01221   s91(s31)(r11).i32 = MOV_TRUNC  s110(r11)[LikelyCanBeTaggedValue_Int].i32
-7FD369E01224   s91(s31)<-48>.i32 = MOV  s91(s31)(r11).i32
-7FD369E01228  $L5:
-7FD369E01228   s78(s18)(rax).i32 = AND  s78(s18)(rax).i32!, 16 (0x10).i32
-7FD369E0122B  
-
-  Line   4: ecx &= 0x11;
-  Col    5: ^
-                       StatementBoundary  #1
-7FD369E0122B   s79(s19)(rbx).i32 = AND  s79(s19)(rbx).i32!, 17 (0x11).i32
-7FD369E0122E  
-
-  Line   5: r9d &= 0x12;
-  Col    5: ^
-                       StatementBoundary  #2
-7FD369E0122E   s80(s20)(rcx).i32 = AND  s80(s20)(rcx).i32!, 18 (0x12).i32
-7FD369E01231  
-
-  Line   6: r8d &= 0x13;
-  Col    5: ^
-                       StatementBoundary  #3
-7FD369E01231   s81(s21)(r10).i32 = AND  s81(s21)(r10).i32!, 19 (0x13).i32
-7FD369E01235  
-
-  Line   7: edi &= 0x14;
-  Col    5: ^
-                       StatementBoundary  #4
-7FD369E01235   s82(s22)(r9).i32 = AND  s82(s22)(r9).i32!, 20 (0x14).i32
-7FD369E01239  
-
-  Line   8: esi &= 0x15;
-  Col    5: ^
-                       StatementBoundary  #5
-7FD369E01239   s83(s23)(r8).i32 = AND  s83(s23)(r8).i32!, 21 (0x15).i32
-7FD369E0123D  
-
-  Line   9: edx &= 0x16;
-  Col    5: ^
-                       StatementBoundary  #6
-7FD369E0123D   s84(s24)(rdi).i32 = AND  s84(s24)(rdi).i32!, 22 (0x16).i32
-7FD369E01240  
-
-  Line  10: r15d &= 0x17;
-  Col    5: ^
-                       StatementBoundary  #7
-7FD369E01240   s85(s25)(rsi).i32 = AND  s85(s25)(rsi).i32!, 23 (0x17).i32
-7FD369E01243  
 
   Line  11: r14d &= 0x18;
+
   Col    5: ^
-                       StatementBoundary  #8
-7FD369E01243   s86(s26)(rdx).i32 = AND  s86(s26)(rdx).i32!, 24 (0x18).i32
-7FD369E01246  
 
-  Line  12: r13d &= 0x19;
+                       StatementBoundary  #8                                  #0022 
+
+    s85(s25).i32    =  And_I4         s85(s25).i32!, 23 (0x17).i32            #001e 
+
+
+
+
+
+  Line  10: r15d &= 0x17;
+
   Col    5: ^
-                       StatementBoundary  #9
-7FD369E01246   s87(s27)(r15).i32 = AND  s87(s27)(r15).i32!, 25 (0x19).i32
-7FD369E0124A  
 
-  Line  13: r12d &= 0x20;
+                       StatementBoundary  #7                                  #001e 
+
+    s84(s24).i32    =  And_I4         s84(s24).i32!, 22 (0x16).i32               # 001a   
+
+    
+
+
+
+  Line   9:       e d x   & =   0x16FunctionExit ; 
+
+   Col    5: ^
+
+                                              StatementBoundary    #6                              # 
+
+                               # 001a  
+
+          s83 (s23) .i32Ret         =     And_I4             s83(s23).i32!, 132 (0x84)21 (0x15)..i32i32                         # 0016   
+
+      
+
+
+
+  Line   8:    e s#i &=0085  0
+
+x15;
+
   Col    5: ^
-                       StatementBoundary  #10
-7FD369E0124A   s88(s28)(r14).i32 = AND  s88(s28)(r14).i32!, 32 (0x20).i32
-7FD369E0124E  
 
-  Line  14: ebx &= 0x21;
-  Col    5: ^
-                       StatementBoundary  #11
-7FD369E0124E   s89(s29)(r13).i32 = AND  s89(s29)(r13).i32!, 33 (0x21).i32
-7FD369E01252  
+                                StatementBoundary    #5                          StLoopBodyCount        s26  . i32 !                    # 0016   
 
-  Line  15: r1 &= 0x22;
-  Col    5: ^
-                       StatementBoundary  #12
-7FD369E01252   s90(s30)(r12).i32 = AND  s90(s30)(r12).i32!, 34 (0x22).i32
-7FD369E01256  
+          s82 (s22) . i32         =     And_I4 #  0085   
 
-  Line  16: r2 &= 0x23;
-  Col    5: ^
-                       StatementBoundary  #13
-7FD369E01256   s91(s31)(r11).i32 = MOV  s91(s31)<-48>.i32
-7FD369E0125A   s91(s31)(r11).i32 = AND  s91(s31)(r11).i32!, 35 (0x23).i32
-7FD369E0125E  
+    s82(s22).i32!, 20 (0x14).i32            #0012   
 
-  Line  17: let s = eax + ebx * 2 - 0x3d; 
-  Col    5: ^
-                       StatementBoundary  #14
-7FD369E0125E   s93(s49)(rax).i32 = LEA  [s78(s18)(rax).i32+s89(s29)(r13).i32!*2].i32
-7FD369E01262   s94(s50)(rax).i32 = SUB  s94(s50)(rax).i32, 61 (0x3D).i32
-7FD369E01265  
+  s28(s27
 
-  Line  18: return ecx + r9d + r8d + edi + esi + edx + r15d + r14d + r13d + r12d + r1 + r2 + s;
-  Col    4: ^
-                       StatementBoundary  #15
-7FD369E01265   s96(s51)(rbx).i32 = ADD  s96(s51)(rbx).i32, s80(s20)(rcx).i32!
-7FD369E01267   s97(s52)(rbx).i32 = ADD  s97(s52)(rbx).i32, s81(s21)(r10).i32!
-7FD369E0126A   s98(s53)(rbx).i32 = ADD  s98(s53)(rbx).i32, s82(s22)(r9).i32!
-7FD369E0126D   s99(s54)(rbx).i32 = ADD  s99(s54)(rbx).i32, s83(s23)(r8).i32!
-7FD369E01270   s100(s55)(rbx).i32 = ADD  s100(s55)(rbx).i32, s84(s24)(rdi).i32!
-7FD369E01272   s101(s56)(rbx).i32 = ADD  s101(s56)(rbx).i32, s85(s25)(rsi).i32!
-7FD369E01274   s102(s57)(rbx).i32 = ADD  s102(s57)(rbx).i32, s86(s26)(rdx).i32!
-7FD369E01276   s103(s58)(rbx).i32 = ADD  s103(s58)(rbx).i32, s87(s27)(r15).i32!
-7FD369E01279   s104(s59)(rbx).i32 = ADD  s104(s59)(rbx).i32, s88(s28)(r14).i32!
-7FD369E0127C   s105(s60)(rbx).i32 = ADD  s105(s60)(rbx).i32, s90(s30)(r12).i32!
-7FD369E0127F   s106(s61)(rbx).i32 = ADD  s106(s61)(rbx).i32, s91(s31)(r11).i32!
-7FD369E01282   s107(s0)(rbx).i32 = ADD  s107(s0)(rbx).i32, s94(s50)(rax).i32!
-7FD369E01284  
 
-  Line  19: }
-  Col    1: ^
-                       StatementBoundary  #16
-7FD369E01284           StatementBoundary  #-1
-7FD369E01284   s109(rax).i32 = MOV_TRUNC  s107(s0)(rbx).i32
-7FD369E01286   s109(rax).var = BTS    s109(rax).var, 48 (0x30).i8
-7FD369E0128B  $L7 (Epilogue):
-7FD369E0128B   (rsp).i64 = ADD        (rsp).i64, 56 (0x38).i64
-7FD369E0128F   (rbx).i64 = POP        
-7FD369E01291   (r12).i64 = POP        
-7FD369E01293   (r13).i64 = POP        
-7FD369E01295   (r14).i64 = POP        
-7FD369E01297   (r15).i64 = POP        
-7FD369E01299   (rsp).i64 = MOV        (rbp).i64
-7FD369E0129C   (rbp).i64 = POP        
-7FD369E0129E           RET            0 (0x0).i32, (rax).i64
-7FD369E0129F           FunctionExit   
-7FD369E0129F           StatementBoundary  #-1
-7FD369E0129F  $L47: [helper]
-7FD369E0129F   s267(rcx).u64 = MOV    0x7FD36AF55030 (undefined).var
-7FD369E012A9   s31(rbx)[LikelyCanBeTaggedValue_Int].var = MOV  s267(rcx).u64
-7FD369E012AC   s31<-24>.var = MOV     s31(rbx).var
-7FD369E012B0   s266(rax).i64 = ADD    s266(rax).i64, 1 (0x1).i64
-7FD369E012B4           JEQ            $L63
-7FD369E012BA   s30(r12)[LikelyCanBeTaggedValue_Int].var = MOV  s267(rcx).u64
-7FD369E012BD   s266(rax).i64 = ADD    s266(rax).i64, 1 (0x1).i64
-7FD369E012C1           JEQ            $L64
-7FD369E012C7   s29(r13)[LikelyCanBeTaggedValue_Int].var = MOV  s267(rcx).u64
-7FD369E012CA   s266(rax).i64 = ADD    s266(rax).i64, 1 (0x1).i64
-7FD369E012CE           JEQ            $L65
-7FD369E012D4   s28(r14)[LikelyCanBeTaggedValue_Int].var = MOV  s267(rcx).u64
-7FD369E012D7   s266(rax).i64 = ADD    s266(rax).i64, 1 (0x1).i64
-7FD369E012DB           JEQ            $L66
-7FD369E012E1   s27(r15)[LikelyCanBeTaggedValue_Int].var = MOV  s267(rcx).u64
-7FD369E012E4   s266(rax).i64 = ADD    s266(rax).i64, 1 (0x1).i64
-7FD369E012E8           JEQ            $L67
-7FD369E012EE   s26(rdx)[LikelyCanBeTaggedValue_Int].var = MOV  s267(rcx).u64
-7FD369E012F1   s266(rax).i64 = ADD    s266(rax).i64, 1 (0x1).i64
-7FD369E012F5           JEQ            $L68
-7FD369E012FB   s25(rsi)[LikelyCanBeTaggedValue_Int].var = MOV  s267(rcx).u64
-7FD369E012FE   s266(rax).i64 = ADD    s266(rax).i64, 1 (0x1).i64
-7FD369E01302           JEQ            $L69
-7FD369E01308   s24(rdi)[LikelyCanBeTaggedValue_Int].var = MOV  s267(rcx).u64
-7FD369E0130B   s266(rax).i64 = ADD    s266(rax).i64, 1 (0x1).i64
-7FD369E0130F           JEQ            $L70
-7FD369E01315   s23(r8)[LikelyCanBeTaggedValue_Int].var = MOV  s267(rcx).u64
-7FD369E01318   s266(rax).i64 = ADD    s266(rax).i64, 1 (0x1).i64
-7FD369E0131C           JEQ            $L71
-7FD369E0131E   s22(r9)[LikelyCanBeTaggedValue_Int].var = MOV  s267(rcx).u64
-7FD369E01321   s266(rax).i64 = ADD    s266(rax).i64, 1 (0x1).i64
-7FD369E01325           JEQ            $L72
-7FD369E01327   s21(r10)[LikelyCanBeTaggedValue_Int].var = MOV  s267(rcx).u64
-7FD369E0132A   s266(rax).i64 = ADD    s266(rax).i64, 1 (0x1).i64
-7FD369E0132E           JEQ            $L73
-7FD369E01330   s20(r11)[LikelyCanBeTaggedValue_Int].var = MOV  s267(rcx).u64
-7FD369E01333   s266(rax).i64 = ADD    s266(rax).i64, 1 (0x1).i64
-7FD369E01337           JEQ            $L74
-7FD369E01339   s19(rbx)[LikelyCanBeTaggedValue_Int].var = MOV  s267(rcx).u64
-7FD369E0133C   s266(rax).i64 = ADD    s266(rax).i64, 1 (0x1).i64
-7FD369E01340           JEQ            $L75
-7FD369E01342   s31(rax).var = MOV     s31<-24>.var
-7FD369E01346           JMP            $L62
-7FD369E0134B           StatementBoundary  #-1
-7FD369E0134B  $L63: [helper]
-7FD369E0134B   s31(rax).i64 = MOV     s31(rbx).i64
-7FD369E0134E           JMP            $L49
-7FD369E01353           StatementBoundary  #-1
-7FD369E01353  $L64: [helper]
-7FD369E01353   s31(rax).i64 = MOV     s31(rbx).i64
-7FD369E01356           JMP            $L50
-7FD369E0135B           StatementBoundary  #-1
-7FD369E0135B  $L65: [helper]
-7FD369E0135B   s31(rax).i64 = MOV     s31(rbx).i64
-7FD369E0135E           JMP            $L51
-7FD369E01363           StatementBoundary  #-1
-7FD369E01363  $L66: [helper]
-7FD369E01363   s31(rax).i64 = MOV     s31(rbx).i64
-7FD369E01366           JMP            $L52
-7FD369E0136B           StatementBoundary  #-1
-7FD369E0136B  $L67: [helper]
-7FD369E0136B   s31(rax).i64 = MOV     s31(rbx).i64
-7FD369E0136E           JMP            $L53
-7FD369E01373           StatementBoundary  #-1
-7FD369E01373  $L68: [helper]
-7FD369E01373   s31(rax).i64 = MOV     s31(rbx).i64
-7FD369E01376           JMP            $L54
-7FD369E0137B           StatementBoundary  #-1
-7FD369E0137B  $L69: [helper]
-7FD369E0137B   s31(rax).i64 = MOV     s31(rbx).i64
-7FD369E0137E           JMP            $L55
-7FD369E01383           StatementBoundary  #-1
-7FD369E01383  $L70: [helper]
-7FD369E01383   s31(rax).i64 = MOV     s31(rbx).i64
-7FD369E01386           JMP            $L56
-7FD369E0138B           StatementBoundary  #-1
-7FD369E0138B  $L71: [helper]
-7FD369E0138B   s31(rax).i64 = MOV     s31(rbx).i64
-7FD369E0138E           JMP            $L57
-7FD369E01393           StatementBoundary  #-1
-7FD369E01393  $L72: [helper]
-7FD369E01393   s31(rax).i64 = MOV     s31(rbx).i64
-7FD369E01396           JMP            $L58
-7FD369E0139B           StatementBoundary  #-1
-7FD369E0139B  $L73: [helper]
-7FD369E0139B   s31(rax).i64 = MOV     s31(rbx).i64
-7FD369E0139E           JMP            $L59
-7FD369E013A3           StatementBoundary  #-1
-7FD369E013A3  $L74: [helper]
-7FD369E013A3   s31(rax).i64 = MOV     s31(rbx).i64
-7FD369E013A6           JMP            $L60
-7FD369E013AB           StatementBoundary  #-1
-7FD369E013AB  $L75: [helper]
-7FD369E013AB   s31(rax).var = MOV     s31<-24>.var
-7FD369E013AF           JMP            $L61
-7FD369E013B4  
+
+  Line   7: l[65])edi &=[CanBeTaggedValue_Int] .0varx!1 4=; 
+
+StSlot   Col    5: ^
+
+   s21      [CanBeTaggedValue_Int] . var !   #  0085   
+
+      StatementBoundary  #4                              s21      [CanBeTaggedValue_Int] . var# 0012=  
+
+ToVar     s80 (s21)s81.(s21)i32.!i32         =     And_I4                 s81 (s21) . i32 ! ,  #19 (0x13)0085. i32
+
+            #000e 
+
+ 
+
+
+
+  Line   6:   r 8 d   & =   0 x 1 3 ; 
+
+   Col    5: ^
+
+               StatementBoundary      #-1                      StatementBoundary    #3                                        #  0084   
+
+                 # 000e   
+
+          s80 (s20) . i32        =StatementBoundary    #4And_I4                  s80 (s20) . i32 ! ,   18 (0x12) . i32                         # 000a   
+
+#0084 
+
+
+
+  Line   5: 
+
+   r 9 d   & =   0 x 1 2 ; 
+
+    Col    5: ^
+
+              SpeculatedLoadFence                               StatementBoundary    #2                                    #  0084   
+
+                   # 000a   
+
+          s79 (s19) . i32        =Br     And_I4                  s79 (s19).$L1i32 ! ,  17 (0x11) . i32                         # 0006   
+
+        
+
+
+
+  Line   4:        e c#x 007f& =
+
+ 0x11 ; 
+
+   Col    5: ^
+
+   s80  (s21) . i32         =      Add_I4                 StatementBoundary s80 (s21)#1. i32 ! ,     1 (0x1) . i32                             #  007c   
+
+      #0006 
+
+    s78(s18).i32    =  And_I4    
+
+
+
+  Line  22:      s78(s18).i32i!+, +16 (0x10)).
+
+i32     Col   29: ^
+
+                 # 0002   
+
+           s91 (s31) . i32     StatementBoundary   = #3  FromVar                s31     [LikelyCanBeTaggedValue_Int] . var !         # 0002     Bailout: #0002    (BailOutOnNotPrimitive) 
+
+    #007c 
+
+                       CallI          s23[LikelyCanBeTaggedValue_Object].var!, arg15(s45)<112>.var! #0072 
+
+    s90(s30).i32    =  FromVar        s30[LikelyCanBeTaggedValue_Int].var     #0002  Bailout: #0002 (BailOutOnNotPrimitive)
+
+    s89(s29).i32    =  FromVar        s29[LikelyCanBeTaggedValue_Int].var     #0002  Bailout: #0002 (BailOutOnNotPrimitive)
+
+    s88(s28).i32    =     FromVar     s30 . var    s28    [LikelyCanBeTaggedValue_Int] . var  =      #LoweredStartCall 0002   Bailout: #000215 (0xF) (BailOutOnNotPrimitive).
+
+i32                         #002a 
+
+    s23[LikelyCanBeTaggedValue_Object].var = LdRootMethodFld  s29(s1[Object]->jsc58c3)<    s870,m,(s27).~-,i32s? ,s?  > =  FromVar  [LikelyCanBeTaggedValue_Object] . var !   # 0024s27 
+
+[LikelyCanBeTaggedValue_Int].var     #0002  Bailout: #0002 (BailOutOnNotPrimitive)
+
+
+
+
+
+  Line  24: jsc58c3(0xc0, 0xc1, 0xc2, 0xc3, 0xc4, 0xc5, 0xc6, 0xc7, 0xc8, 0xc9, 0xc1 0 ,   0s86x(s26)c.1i321 ,   0 x=c 1 2FromVar ,   0 x c 1 3 )s26;
+
+[LikelyCanBeTaggedValue_Int]  Col    2: ^
+
+. var           # 0002     Bailout: #0002  (BailOutOnNotPrimitive) 
+
+          StatementBoundary  #2                                  #0024 
+
+                       BrGe_I4          s85 (s25) .i32$L8 ,   s80 =(s21) . i32FromVar ,     65536 (0x10000) . i32  s25 #[LikelyCanBeTaggedValue_Int]001c. var
+
+     #0002    Bailout: #0002  (BailOutOnNotPrimitive) 
+
+s26.i32         =  IncrLoopBodyCount  s26.i32!                            #001c 
+
+    s84(s24).i32   
+
+
+
+  Line  22:  =  FromVar i   <   0 x 1 0s24000[LikelyCanBeTaggedValue_Int];. vari + + ) 
+
+ #  Col   16: ^
+
+0002     Bailout: #0002  (BailOutOnNotPrimitive) 
+
+                  StatementBoundary  #1                                  #001c 
+
+                        s83 (s23) . i32BailTarget         =     FromVar               s23    [LikelyCanBeTaggedValue_Int] . var           # 0002     Bailout: #0002  (BailOutOnNotPrimitive) 
+
+            #      Bailout: #001c (BailOutShared)
+
+    s80(s21).i32    =  FromVar        s21 [LikelyCanBeTaggedValue_Int] . var   s82 (s22) . i32#        =    Bailout: #001cFromVar   (BailOutIntOnly) 
+
+     s22[LikelyCanBeTaggedValue_Int].var     #0002  Bailout: #0002 (BailOutOnNotPrimitive)
+
+    s81(s21).i32    =  FromVar        s21[LikelyCanBeTaggedValue_Int].var     #0002  Bailout: #0002 (BailOutOnNotPrimitive)
+
+    s26.var         =  InitLoopBodyCount                                     s80 (s20) . i32    #  001a=  
+
+ FromVar          s20  s19[LikelyCanBeTaggedValue_Int].var   [Undefined] . var# 0002=   Ld_A Bailout: #0002  (BailOutOnNotPrimitive) 
+
+      0xXXXXXXXX (undefined)[Undefined].var   #
+
+    s1[Object].var  =  Ld_A           0xXXXXXXXX (GlobalObject)[Object].var   #
+
+    s21[LikelyCanBeTaggedValue_Int].var = LdSlot      s28(s79s27(s19)l[65].)i32    [LikelyCanBeTaggedValue_Int]=. var !FromVar   # 
+
+     s19 [LikelyCanBeTaggedValue_Int] . var   s27 . u64  # 0002     Bailout: #0002  (BailOutOnNotPrimitive) 
+
+  =  ArgIn_A        prm1<32>.var!                           #
+
+                       FunctionEntry          s78 (s18) . i32         =     FromVar                s18    [LikelyCanBeTaggedValue_Int] . var           # 0002     Bailout: #0002  (BailOutOnNotPrimitive)#
+
+
+
+
+
+
 
   Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E013B4  $L44: [helper]
-7FD369E013B4   s281<-208>.i64 = MOV   (rdx).i64
-7FD369E013BB   s280<-200>.i64 = MOV   (rsi).i64
-7FD369E013C2   s279<-192>.i64 = MOV   (rdi).i64
-7FD369E013C9   s278<-184>.i64 = MOV   (r8).i64
-7FD369E013D0   s277<-176>.i64 = MOV   (r9).i64
-7FD369E013D7   s276<-168>.i64 = MOV   (r10).i64
-7FD369E013DE   s275<-160>.i64 = MOV   (r11).i64
-7FD369E013E5   s256(rcx).i64 = LEA    s112<-9>.u8
-7FD369E013E9   s257<-48>.i64 = MOV    s257(rcx).i64
-7FD369E013ED   s258(rcx).var = MOV    s18<-32>.var
-7FD369E013F1   s258<-40>.var = MOV    s258(rcx).var
-7FD369E013F5   s257(rcx).i64 = MOV    s257<-48>.i64
-7FD369E013F9   arg3(s260)(rdx).i64 = MOV  s257(rcx).i64
-7FD369E013FC   arg2(s261)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E01406   s258(rcx).var = MOV    s258<-40>.var
-7FD369E0140A   arg1(s262)(rdi).var = MOV  s258(rcx).var
-7FD369E0140D   s263(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E01417   s259(rax).i32 = CALL   s263(rax).u64
-7FD369E0141A   s264(rcx).u8 = MOV     s112<-9>.u8
-7FD369E0141D           TEST           s264(rcx).u8, s264(rcx).u8
-7FD369E0141F   (r11).i64 = MOV        s275<-160>.i64
-7FD369E01426   (r10).i64 = MOV        s276<-168>.i64
-7FD369E0142D   (r9).i64 = MOV         s277<-176>.i64
-7FD369E01434   (r8).i64 = MOV         s278<-184>.i64
-7FD369E0143B   (rdi).i64 = MOV        s279<-192>.i64
-7FD369E01442   (rsi).i64 = MOV        s280<-200>.i64
-7FD369E01449   (rdx).i64 = MOV        s281<-208>.i64
-7FD369E01450           JEQ            $L45
-7FD369E01456  $L46: [helper]
-7FD369E01456   arg2(s269)<8>.i64 = MOV  s24(rdi).i64
-7FD369E0145B   (rdi).u64 = MOV        0x7FD35C004CC8 (BailOutRecord).u64
-7FD369E01465   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E0146F           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E01472           JMP            $L7
-7FD369E01477  
 
-  Line   3: eax &= 0x10;
   Col    5: ^
-                       StatementBoundary  #0
-7FD369E01477  $L41: [helper]
-7FD369E01477   s282<-216>.i64 = MOV   (rdx).i64
-7FD369E0147E   s281<-208>.i64 = MOV   (rsi).i64
-7FD369E01485   s280<-200>.i64 = MOV   (rdi).i64
-7FD369E0148C   s279<-192>.i64 = MOV   (r8).i64
-7FD369E01493   s278<-184>.i64 = MOV   (r9).i64
-7FD369E0149A   s277<-176>.i64 = MOV   (r10).i64
-7FD369E014A1   s276<-168>.i64 = MOV   (r11).i64
-7FD369E014A8   s275<-160>.i64 = MOV   (rax).i64
-7FD369E014AF   s245(rcx).i64 = LEA    s112<-9>.u8
-7FD369E014B3   s246<-48>.i64 = MOV    s246(rcx).i64
-7FD369E014B7   s247(rcx).var = MOV    s19<-56>.var
-7FD369E014BB   s247<-40>.var = MOV    s247(rcx).var
-7FD369E014BF   s246(rcx).i64 = MOV    s246<-48>.i64
-7FD369E014C3   arg3(s249)(rdx).i64 = MOV  s246(rcx).i64
-7FD369E014C6   arg2(s250)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E014D0   s247(rcx).var = MOV    s247<-40>.var
-7FD369E014D4   arg1(s251)(rdi).var = MOV  s247(rcx).var
-7FD369E014D7   s252(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E014E1   s248(rax).i32 = CALL   s252(rax).u64
-7FD369E014E4   s79(s19)(rbx).i32 = MOV  s248(rax).i32
-7FD369E014E6   s253(rax).u8 = MOV     s112<-9>.u8
-7FD369E014E9           TEST           s253(rax).u8, s253(rax).u8
-7FD369E014EB   (rax).i64 = MOV        s275<-160>.i64
-7FD369E014F2   (r11).i64 = MOV        s276<-168>.i64
-7FD369E014F9   (r10).i64 = MOV        s277<-176>.i64
-7FD369E01500   (r9).i64 = MOV         s278<-184>.i64
-7FD369E01507   (r8).i64 = MOV         s279<-192>.i64
-7FD369E0150E   (rdi).i64 = MOV        s280<-200>.i64
-7FD369E01515   (rsi).i64 = MOV        s281<-208>.i64
-7FD369E0151C   (rdx).i64 = MOV        s282<-216>.i64
-7FD369E01523           JEQ            $L42
-7FD369E01529  $L43: [helper]
-7FD369E01529   arg2(s270)<8>.i64 = MOV  s24(rdi).i64
-7FD369E0152E   (rdi).u64 = MOV        0x7FD35C004BF8 (BailOutRecord).u64
-7FD369E01538   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E01542           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E01545           JMP            $L7
-7FD369E0154A  
 
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E0154A  $L38: [helper]
-7FD369E0154A   s281<-208>.i64 = MOV   (rdx).i64
-7FD369E01551   s280<-200>.i64 = MOV   (rsi).i64
-7FD369E01558   s279<-192>.i64 = MOV   (rdi).i64
-7FD369E0155F   s278<-184>.i64 = MOV   (r8).i64
-7FD369E01566   s277<-176>.i64 = MOV   (r9).i64
-7FD369E0156D   s276<-168>.i64 = MOV   (r10).i64
-7FD369E01574   s275<-160>.i64 = MOV   (rax).i64
-7FD369E0157B   s234(r11).i64 = LEA    s112<-9>.u8
-7FD369E0157F   s235<-48>.i64 = MOV    s235(r11).i64
-7FD369E01583   s236(r11).var = MOV    s20<-64>.var
-7FD369E01587   s236<-40>.var = MOV    s236(r11).var
-7FD369E0158B   s235(r11).i64 = MOV    s235<-48>.i64
-7FD369E0158F   arg3(s238)(rdx).i64 = MOV  s235(r11).i64
-7FD369E01592   arg2(s239)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E0159C   s236(r11).var = MOV    s236<-40>.var
-7FD369E015A0   arg1(s240)(rdi).var = MOV  s236(r11).var
-7FD369E015A3   s241(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E015AD   s237(rax).i32 = CALL   s241(rax).u64
-7FD369E015B0   s80(s20)(rcx).i32 = MOV  s237(rax).i32
-7FD369E015B2   s242(rax).u8 = MOV     s112<-9>.u8
-7FD369E015B5           TEST           s242(rax).u8, s242(rax).u8
-7FD369E015B7   (rax).i64 = MOV        s275<-160>.i64
-7FD369E015BE   (r10).i64 = MOV        s276<-168>.i64
-7FD369E015C5   (r9).i64 = MOV         s277<-176>.i64
-7FD369E015CC   (r8).i64 = MOV         s278<-184>.i64
-7FD369E015D3   (rdi).i64 = MOV        s279<-192>.i64
-7FD369E015DA   (rsi).i64 = MOV        s280<-200>.i64
-7FD369E015E1   (rdx).i64 = MOV        s281<-208>.i64
-7FD369E015E8           JEQ            $L39
-7FD369E015EE  $L40: [helper]
-7FD369E015EE   arg2(s271)<8>.i64 = MOV  s24(rdi).i64
-7FD369E015F3   (rdi).u64 = MOV        0x7FD35C004B28 (BailOutRecord).u64
-7FD369E015FD   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E01607           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E0160A           JMP            $L7
-7FD369E0160F  
+                       StatementBoundary  #0                                  #0002 
 
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E0160F  $L35: [helper]
-7FD369E0160F   s281<-208>.i64 = MOV   (rdx).i64
-7FD369E01616   s280<-200>.i64 = MOV   (rsi).i64
-7FD369E0161D   s279<-192>.i64 = MOV   (rdi).i64
-7FD369E01624   s278<-184>.i64 = MOV   (r8).i64
-7FD369E0162B   s277<-176>.i64 = MOV   (r9).i64
-7FD369E01632   s276<-168>.i64 = MOV   (rax).i64
-7FD369E01639   s275<-160>.i64 = MOV   (rcx).i64
-7FD369E01640   s223(r11).i64 = LEA    s112<-9>.u8
-7FD369E01644   s224<-48>.i64 = MOV    s224(r11).i64
-7FD369E01648   s225(r11).var = MOV    s21<-72>.var
-7FD369E0164C   s225<-40>.var = MOV    s225(r11).var
-7FD369E01650   s224(r11).i64 = MOV    s224<-48>.i64
-7FD369E01654   arg3(s227)(rdx).i64 = MOV  s224(r11).i64
-7FD369E01657   arg2(s228)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E01661   s225(r11).var = MOV    s225<-40>.var
-7FD369E01665   arg1(s229)(rdi).var = MOV  s225(r11).var
-7FD369E01668   s230(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E01672   s226(rax).i32 = CALL   s230(rax).u64
-7FD369E01675   s81(s21)(r10).i32 = MOV  s226(rax).i32
-7FD369E01678   s231(rax).u8 = MOV     s112<-9>.u8
-7FD369E0167B           TEST           s231(rax).u8, s231(rax).u8
-7FD369E0167D   (rcx).i64 = MOV        s275<-160>.i64
-7FD369E01684   (rax).i64 = MOV        s276<-168>.i64
-7FD369E0168B   (r9).i64 = MOV         s277<-176>.i64
-7FD369E01692   (r8).i64 = MOV         s278<-184>.i64
-7FD369E01699   (rdi).i64 = MOV        s279<-192>.i64
-7FD369E016A0   (rsi).i64 = MOV        s280<-200>.i64
-7FD369E016A7   (rdx).i64 = MOV        s281<-208>.i64
-7FD369E016AE           JEQ            $L36
-7FD369E016B4  $L37: [helper]
-7FD369E016B4   arg2(s272)<8>.i64 = MOV  s24(rdi).i64
-7FD369E016B9   (rdi).u64 = MOV        0x7FD35C004A58 (BailOutRecord).u64
-7FD369E016C3   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E016CD           NOP            4 (0x4).i8
-7FD369E016D1           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E016D4           JMP            $L7
-7FD369E016D9  
+    s31[LikelyCanBeTaggedValue_Int].var = ArgIn_A  prm15<144>[LikelyCanBeTaggedValue_Int].var! #
 
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E016D9  $L32: [helper]
-7FD369E016D9   s281<-208>.i64 = MOV   (rdx).i64
-7FD369E016E0   s280<-200>.i64 = MOV   (rsi).i64
-7FD369E016E7   s279<-192>.i64 = MOV   (rdi).i64
-7FD369E016EE   s278<-184>.i64 = MOV   (r8).i64
-7FD369E016F5   s277<-176>.i64 = MOV   (rax).i64
-7FD369E016FC   s276<-168>.i64 = MOV   (rcx).i64
-7FD369E01703   s275<-160>.i64 = MOV   (r10).i64
-7FD369E0170A   s212(r11).i64 = LEA    s112<-9>.u8
-7FD369E0170E   s213<-48>.i64 = MOV    s213(r11).i64
-7FD369E01712   s214(r11).var = MOV    s22<-80>.var
-7FD369E01716   s214<-40>.var = MOV    s214(r11).var
-7FD369E0171A   s213(r11).i64 = MOV    s213<-48>.i64
-7FD369E0171E   arg3(s216)(rdx).i64 = MOV  s213(r11).i64
-7FD369E01721   arg2(s217)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E0172B   s214(r11).var = MOV    s214<-40>.var
-7FD369E0172F   arg1(s218)(rdi).var = MOV  s214(r11).var
-7FD369E01732   s219(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E0173C   s215(rax).i32 = CALL   s219(rax).u64
-7FD369E0173F   s82(s22)(r9).i32 = MOV  s215(rax).i32
-7FD369E01742   s220(rax).u8 = MOV     s112<-9>.u8
-7FD369E01745           TEST           s220(rax).u8, s220(rax).u8
-7FD369E01747   (r10).i64 = MOV        s275<-160>.i64
-7FD369E0174E   (rcx).i64 = MOV        s276<-168>.i64
-7FD369E01755   (rax).i64 = MOV        s277<-176>.i64
-7FD369E0175C   (r8).i64 = MOV         s278<-184>.i64
-7FD369E01763   (rdi).i64 = MOV        s279<-192>.i64
-7FD369E0176A   (rsi).i64 = MOV        s280<-200>.i64
-7FD369E01771   (rdx).i64 = MOV        s281<-208>.i64
-7FD369E01778           JEQ            $L33
-7FD369E0177E  $L34: [helper]
-7FD369E0177E   arg2(s273)<8>.i64 = MOV  s24(rdi).i64
-7FD369E01783   (rdi).u64 = MOV        0x7FD35C004988 (BailOutRecord).u64
-7FD369E0178D   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E01797           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E0179A           JMP            $L7
-7FD369E0179F  
+                       FunctionEntry                                          #
 
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E0179F  $L29: [helper]
-7FD369E0179F   s281<-208>.i64 = MOV   (rdx).i64
-7FD369E017A6   s280<-200>.i64 = MOV   (rsi).i64
-7FD369E017AD   s279<-192>.i64 = MOV   (rdi).i64
-7FD369E017B4   s278<-184>.i64 = MOV   (rax).i64
-7FD369E017BB   s277<-176>.i64 = MOV   (rcx).i64
-7FD369E017C2   s276<-168>.i64 = MOV   (r10).i64
-7FD369E017C9   s275<-160>.i64 = MOV   (r9).i64
-7FD369E017D0   s201(r11).i64 = LEA    s112<-9>.u8
-7FD369E017D4   s202<-48>.i64 = MOV    s202(r11).i64
-7FD369E017D8   s203(r11).var = MOV    s23<-88>.var
-7FD369E017DC   s203<-40>.var = MOV    s203(r11).var
-7FD369E017E0   s202(r11).i64 = MOV    s202<-48>.i64
-7FD369E017E4   arg3(s205)(rdx).i64 = MOV  s202(r11).i64
-7FD369E017E7   arg2(s206)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E017F1   s203(r11).var = MOV    s203<-40>.var
-7FD369E017F5   arg1(s207)(rdi).var = MOV  s203(r11).var
-7FD369E017F8   s208(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E01802   s204(rax).i32 = CALL   s208(rax).u64
-7FD369E01805   s83(s23)(r8).i32 = MOV  s204(rax).i32
-7FD369E01808   s209(rax).u8 = MOV     s112<-9>.u8
-7FD369E0180B           TEST           s209(rax).u8, s209(rax).u8
-7FD369E0180D   (r9).i64 = MOV         s275<-160>.i64
-7FD369E01814   (r10).i64 = MOV        s276<-168>.i64
-7FD369E0181B   (rcx).i64 = MOV        s277<-176>.i64
-7FD369E01822   (rax).i64 = MOV        s278<-184>.i64
-7FD369E01829   (rdi).i64 = MOV        s279<-192>.i64
-7FD369E01830   (rsi).i64 = MOV        s280<-200>.i64
-7FD369E01837   (rdx).i64 = MOV        s281<-208>.i64
-7FD369E0183E           JEQ            $L30
-7FD369E01844  $L31: [helper]
-7FD369E01844   arg2(s274)<8>.i64 = MOV  s24(rdi).i64
-7FD369E01849   (rdi).u64 = MOV        0x7FD35C0048B8 (BailOutRecord).u64
-7FD369E01853   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E0185D           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E01860           JMP            $L7
-7FD369E01865  
+-----------------------------------------------------------------------------
 
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E01865  $L26: [helper]
-7FD369E01865   s281<-208>.i64 = MOV   (rdx).i64
-7FD369E0186C   s280<-200>.i64 = MOV   (rsi).i64
-7FD369E01873   s279<-192>.i64 = MOV   (rax).i64
-7FD369E0187A   s278<-184>.i64 = MOV   (rcx).i64
-7FD369E01881   s277<-176>.i64 = MOV   (r10).i64
-7FD369E01888   s276<-168>.i64 = MOV   (r9).i64
-7FD369E0188F   s275<-160>.i64 = MOV   (r8).i64
-7FD369E01896   s190(r11).i64 = LEA    s112<-9>.u8
-7FD369E0189A   s191<-48>.i64 = MOV    s191(r11).i64
-7FD369E0189E   s192(r11).var = MOV    s24<-96>.var
-7FD369E018A2   s192<-40>.var = MOV    s192(r11).var
-7FD369E018A6   s191(r11).i64 = MOV    s191<-48>.i64
-7FD369E018AA   arg3(s194)(rdx).i64 = MOV  s191(r11).i64
-7FD369E018AD   arg2(s195)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E018B7   s192(r11).var = MOV    s192<-40>.var
-7FD369E018BB   arg1(s196)(rdi).var = MOV  s192(r11).var
-7FD369E018BE   s197(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E018C8   s193(rax).i32 = CALL   s197(rax).u64
-7FD369E018CB   s84(s24)(rdi).i32 = MOV  s193(rax).i32
-7FD369E018CD   s198(rax).u8 = MOV     s112<-9>.u8
-7FD369E018D0           TEST           s198(rax).u8, s198(rax).u8
-7FD369E018D2   (r8).i64 = MOV         s275<-160>.i64
-7FD369E018D9   (r9).i64 = MOV         s276<-168>.i64
-7FD369E018E0   (r10).i64 = MOV        s277<-176>.i64
-7FD369E018E7   (rcx).i64 = MOV        s278<-184>.i64
-7FD369E018EE   (rax).i64 = MOV        s279<-192>.i64
-7FD369E018F5   (rsi).i64 = MOV        s280<-200>.i64
-7FD369E018FC   (rdx).i64 = MOV        s281<-208>.i64
-7FD369E01903           JEQ            $L27
-7FD369E01909  $L28: [helper]
-7FD369E01909   (rdi).u64 = MOV        0x7FD35C0047E8 (BailOutRecord).u64
-7FD369E01913   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E0191D           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E01920           JMP            $L7
-7FD369E01925  
+Function Global code ( (#1.0), #1)                Instr Count:173		Size:748
 
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E01925  $L23: [helper]
-7FD369E01925   s281<-208>.i64 = MOV   (rdx).i64
-7FD369E0192C   s280<-200>.i64 = MOV   (rax).i64
-7FD369E01933   s279<-192>.i64 = MOV   (rcx).i64
-7FD369E0193A   s278<-184>.i64 = MOV   (r10).i64
-7FD369E01941   s277<-176>.i64 = MOV   (r9).i64
-7FD369E01948   s276<-168>.i64 = MOV   (r8).i64
-7FD369E0194F   s275<-160>.i64 = MOV   (rdi).i64
-7FD369E01956   s179(r11).i64 = LEA    s112<-9>.u8
-7FD369E0195A   s180<-48>.i64 = MOV    s180(r11).i64
-7FD369E0195E   s181(r11).var = MOV    s25<-104>.var
-7FD369E01962   s181<-40>.var = MOV    s181(r11).var
-7FD369E01966   s180(r11).i64 = MOV    s180<-48>.i64
-7FD369E0196A   arg3(s183)(rdx).i64 = MOV  s180(r11).i64
-7FD369E0196D   arg2(s184)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E01977   s181(r11).var = MOV    s181<-40>.var
-7FD369E0197B   arg1(s185)(rdi).var = MOV  s181(r11).var
-7FD369E0197E   s186(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E01988   s182(rax).i32 = CALL   s186(rax).u64
-7FD369E0198B   s85(s25)(rsi).i32 = MOV  s182(rax).i32
-7FD369E0198D   s187(rax).u8 = MOV     s112<-9>.u8
-7FD369E01990           TEST           s187(rax).u8, s187(rax).u8
-7FD369E01992   (rdi).i64 = MOV        s275<-160>.i64
-7FD369E01999   (r8).i64 = MOV         s276<-168>.i64
-7FD369E019A0   (r9).i64 = MOV         s277<-176>.i64
-7FD369E019A7   (r10).i64 = MOV        s278<-184>.i64
-7FD369E019AE   (rcx).i64 = MOV        s279<-192>.i64
-7FD369E019B5   (rax).i64 = MOV        s280<-200>.i64
-7FD369E019BC   (rdx).i64 = MOV        s281<-208>.i64
-7FD369E019C3           JEQ            $L24
-7FD369E019C9  $L25: [helper]
-7FD369E019C9   (rdi).u64 = MOV        0x7FD35C004718 (BailOutRecord).u64
-7FD369E019D3   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E019DD           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E019E0           JMP            $L7
-7FD369E019E5  
 
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E019E5  $L20: [helper]
-7FD369E019E5   s281<-208>.i64 = MOV   (rax).i64
-7FD369E019EC   s280<-200>.i64 = MOV   (rcx).i64
-7FD369E019F3   s279<-192>.i64 = MOV   (r10).i64
-7FD369E019FA   s278<-184>.i64 = MOV   (r9).i64
-7FD369E01A01   s277<-176>.i64 = MOV   (r8).i64
-7FD369E01A08   s276<-168>.i64 = MOV   (rdi).i64
-7FD369E01A0F   s275<-160>.i64 = MOV   (rsi).i64
-7FD369E01A16   s168(r11).i64 = LEA    s112<-9>.u8
-7FD369E01A1A   s169<-48>.i64 = MOV    s169(r11).i64
-7FD369E01A1E   s170(r11).var = MOV    s26<-112>.var
-7FD369E01A22   s170<-40>.var = MOV    s170(r11).var
-7FD369E01A26   s169(r11).i64 = MOV    s169<-48>.i64
-7FD369E01A2A   arg3(s172)(rdx).i64 = MOV  s169(r11).i64
-7FD369E01A2D   arg2(s173)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E01A37   s170(r11).var = MOV    s170<-40>.var
-7FD369E01A3B   arg1(s174)(rdi).var = MOV  s170(r11).var
-7FD369E01A3E   s175(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E01A48   s171(rax).i32 = CALL   s175(rax).u64
-7FD369E01A4B   s86(s26)(rdx).i32 = MOV  s171(rax).i32
-7FD369E01A4D   s176(rax).u8 = MOV     s112<-9>.u8
-7FD369E01A50           TEST           s176(rax).u8, s176(rax).u8
-7FD369E01A52   (rsi).i64 = MOV        s275<-160>.i64
-7FD369E01A59   (rdi).i64 = MOV        s276<-168>.i64
-7FD369E01A60   (r8).i64 = MOV         s277<-176>.i64
-7FD369E01A67   (r9).i64 = MOV         s278<-184>.i64
-7FD369E01A6E   (r10).i64 = MOV        s279<-192>.i64
-7FD369E01A75   (rcx).i64 = MOV        s280<-200>.i64
-7FD369E01A7C   (rax).i64 = MOV        s281<-208>.i64
-7FD369E01A83           JEQ            $L21
-7FD369E01A89  $L22: [helper]
-7FD369E01A89   (rdi).u64 = MOV        0x7FD35C004648 (BailOutRecord).u64
-7FD369E01A93   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E01A9D           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E01AA0           JMP            $L7
-7FD369E01AA5  
 
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E01AA5  $L17: [helper]
-7FD369E01AA5   s282<-216>.i64 = MOV   (rax).i64
-7FD369E01AAC   s281<-208>.i64 = MOV   (rcx).i64
-7FD369E01AB3   s280<-200>.i64 = MOV   (r10).i64
-7FD369E01ABA   s279<-192>.i64 = MOV   (r9).i64
-7FD369E01AC1   s278<-184>.i64 = MOV   (r8).i64
-7FD369E01AC8   s277<-176>.i64 = MOV   (rdi).i64
-7FD369E01ACF   s276<-168>.i64 = MOV   (rsi).i64
-7FD369E01AD6   s275<-160>.i64 = MOV   (rdx).i64
-7FD369E01ADD   s157(r11).i64 = LEA    s112<-9>.u8
-7FD369E01AE1   s158<-48>.i64 = MOV    s158(r11).i64
-7FD369E01AE5   s159(r11).var = MOV    s27<-120>.var
-7FD369E01AE9   s159<-40>.var = MOV    s159(r11).var
-7FD369E01AED   s158(r11).i64 = MOV    s158<-48>.i64
-7FD369E01AF1   arg3(s161)(rdx).i64 = MOV  s158(r11).i64
-7FD369E01AF4   arg2(s162)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E01AFE   s159(r11).var = MOV    s159<-40>.var
-7FD369E01B02   arg1(s163)(rdi).var = MOV  s159(r11).var
-7FD369E01B05   s164(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E01B0F   s160(rax).i32 = CALL   s164(rax).u64
-7FD369E01B12   s87(s27)(r15).i32 = MOV  s160(rax).i32
-7FD369E01B15   s165(rax).u8 = MOV     s112<-9>.u8
-7FD369E01B18           TEST           s165(rax).u8, s165(rax).u8
-7FD369E01B1A   (rdx).i64 = MOV        s275<-160>.i64
-7FD369E01B21   (rsi).i64 = MOV        s276<-168>.i64
-7FD369E01B28   (rdi).i64 = MOV        s277<-176>.i64
-7FD369E01B2F   (r8).i64 = MOV         s278<-184>.i64
-7FD369E01B36   (r9).i64 = MOV         s279<-192>.i64
-7FD369E01B3D   (r10).i64 = MOV        s280<-200>.i64
-7FD369E01B44   (rcx).i64 = MOV        s281<-208>.i64
-7FD369E01B4B   (rax).i64 = MOV        s282<-216>.i64
-7FD369E01B52           JEQ            $L18
-7FD369E01B58  $L19: [helper]
-7FD369E01B58   (rdi).u64 = MOV        0x7FD35C004578 (BailOutRecord).u64
-7FD369E01B62   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E01B6C           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E01B6F           JMP            $L7
-7FD369E01B74  
+7F8EEA3B0000           FunctionEntry  
 
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E01B74  $L14: [helper]
-7FD369E01B74   s282<-216>.i64 = MOV   (rax).i64
-7FD369E01B7B   s281<-208>.i64 = MOV   (rcx).i64
-7FD369E01B82   s280<-200>.i64 = MOV   (r10).i64
-7FD369E01B89   s279<-192>.i64 = MOV   (r9).i64
-7FD369E01B90   s278<-184>.i64 = MOV   (r8).i64
-7FD369E01B97   s277<-176>.i64 = MOV   (rdi).i64
-7FD369E01B9E   s276<-168>.i64 = MOV   (rsi).i64
-7FD369E01BA5   s275<-160>.i64 = MOV   (rdx).i64
-7FD369E01BAC   s146(r11).i64 = LEA    s112<-9>.u8
-7FD369E01BB0   s147<-48>.i64 = MOV    s147(r11).i64
-7FD369E01BB4   s148(r11).var = MOV    s28<-128>.var
-7FD369E01BB8   s148<-40>.var = MOV    s148(r11).var
-7FD369E01BBC   s147(r11).i64 = MOV    s147<-48>.i64
-7FD369E01BC0   arg3(s150)(rdx).i64 = MOV  s147(r11).i64
-7FD369E01BC3   arg2(s151)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E01BCD   s148(r11).var = MOV    s148<-40>.var
-7FD369E01BD1   arg1(s152)(rdi).var = MOV  s148(r11).var
-7FD369E01BD4   s153(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E01BDE   s149(rax).i32 = CALL   s153(rax).u64
-7FD369E01BE1   s88(s28)(r14).i32 = MOV  s149(rax).i32
-7FD369E01BE4           NOP            2 (0x2).i8
-7FD369E01BE6   s154(rax).u8 = MOV     s112<-9>.u8
-7FD369E01BE9           TEST           s154(rax).u8, s154(rax).u8
-7FD369E01BEB   (rdx).i64 = MOV        s275<-160>.i64
-7FD369E01BF2   (rsi).i64 = MOV        s276<-168>.i64
-7FD369E01BF9   (rdi).i64 = MOV        s277<-176>.i64
-7FD369E01C00   (r8).i64 = MOV         s278<-184>.i64
-7FD369E01C07   (r9).i64 = MOV         s279<-192>.i64
-7FD369E01C0E   (r10).i64 = MOV        s280<-200>.i64
-7FD369E01C15   (rcx).i64 = MOV        s281<-208>.i64
-7FD369E01C1C           NOP            3 (0x3).i8
-7FD369E01C1F   (rax).i64 = MOV        s282<-216>.i64
-7FD369E01C26           JEQ            $L15
-7FD369E01C2C  $L16: [helper]
-7FD369E01C2C   (rdi).u64 = MOV        0x7FD35C0044A8 (BailOutRecord).u64
-7FD369E01C36   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E01C40           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E01C43           JMP            $L7
-7FD369E01C48  
+7F8EEA3B0001   (rax).i64 = MOV        0x562209183810 (&StackLimit).u64
 
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E01C48  $L11: [helper]
-7FD369E01C48   s282<-216>.i64 = MOV   (rax).i64
-7FD369E01C4F   s281<-208>.i64 = MOV   (rcx).i64
-7FD369E01C56   s280<-200>.i64 = MOV   (r10).i64
-7FD369E01C5D   s279<-192>.i64 = MOV   (r9).i64
-7FD369E01C64   s278<-184>.i64 = MOV   (r8).i64
-7FD369E01C6B   s277<-176>.i64 = MOV   (rdi).i64
-7FD369E01C72   s276<-168>.i64 = MOV   (rsi).i64
-7FD369E01C79   s275<-160>.i64 = MOV   (rdx).i64
-7FD369E01C80   s135(r11).i64 = LEA    s112<-9>.u8
-7FD369E01C84   s136<-48>.i64 = MOV    s136(r11).i64
-7FD369E01C88   s137(r11).var = MOV    s29<-136>.var
-7FD369E01C8F   s137<-40>.var = MOV    s137(r11).var
-7FD369E01C93   s136(r11).i64 = MOV    s136<-48>.i64
-7FD369E01C97   arg3(s139)(rdx).i64 = MOV  s136(r11).i64
-7FD369E01C9A   arg2(s140)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E01CA4   s137(r11).var = MOV    s137<-40>.var
-7FD369E01CA8   arg1(s141)(rdi).var = MOV  s137(r11).var
-7FD369E01CAB   s142(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E01CB5   s138(rax).i32 = CALL   s142(rax).u64
-7FD369E01CB8   s89(s29)(r13).i32 = MOV  s138(rax).i32
-7FD369E01CBB   s143(rax).u8 = MOV     s112<-9>.u8
-7FD369E01CBE           TEST           s143(rax).u8, s143(rax).u8
-7FD369E01CC0   (rdx).i64 = MOV        s275<-160>.i64
-7FD369E01CC7   (rsi).i64 = MOV        s276<-168>.i64
-7FD369E01CCE   (rdi).i64 = MOV        s277<-176>.i64
-7FD369E01CD5   (r8).i64 = MOV         s278<-184>.i64
-7FD369E01CDC   (r9).i64 = MOV         s279<-192>.i64
-7FD369E01CE3   (r10).i64 = MOV        s280<-200>.i64
-7FD369E01CEA   (rcx).i64 = MOV        s281<-208>.i64
-7FD369E01CF1   (rax).i64 = MOV        s282<-216>.i64
-7FD369E01CF8           JEQ            $L12
-7FD369E01CFE  $L13: [helper]
-7FD369E01CFE   (rdi).u64 = MOV        0x7FD35C0043D8 (BailOutRecord).u64
-7FD369E01D08   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E01D12           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E01D15           JMP            $L7
-7FD369E01D1A  
+7F8EEA3B000B   (rax).i64 = MOV        [(rax).i64].i64
 
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E01D1A  $L8: [helper]
-7FD369E01D1A   s282<-216>.i64 = MOV   (rax).i64
-7FD369E01D21   s281<-208>.i64 = MOV   (rcx).i64
-7FD369E01D28   s280<-200>.i64 = MOV   (r10).i64
-7FD369E01D2F   s279<-192>.i64 = MOV   (r9).i64
-7FD369E01D36   s278<-184>.i64 = MOV   (r8).i64
-7FD369E01D3D   s277<-176>.i64 = MOV   (rdi).i64
-7FD369E01D44   s276<-168>.i64 = MOV   (rsi).i64
-7FD369E01D4B   s275<-160>.i64 = MOV   (rdx).i64
-7FD369E01D52   s124(r11).i64 = LEA    s112<-9>.u8
-7FD369E01D56   s125<-48>.i64 = MOV    s125(r11).i64
-7FD369E01D5A   s126(r11).var = MOV    s30<-144>.var
-7FD369E01D61   s126<-40>.var = MOV    s126(r11).var
-7FD369E01D65   s125(r11).i64 = MOV    s125<-48>.i64
-7FD369E01D69   arg3(s128)(rdx).i64 = MOV  s125(r11).i64
-7FD369E01D6C   arg2(s129)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E01D76   s126(r11).var = MOV    s126<-40>.var
-7FD369E01D7A   arg1(s130)(rdi).var = MOV  s126(r11).var
-7FD369E01D7D   s131(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E01D87   s127(rax).i32 = CALL   s131(rax).u64
-7FD369E01D8A   s90(s30)(r12).i32 = MOV  s127(rax).i32
-7FD369E01D8D   s132(rax).u8 = MOV     s112<-9>.u8
-7FD369E01D90           TEST           s132(rax).u8, s132(rax).u8
-7FD369E01D92   (rdx).i64 = MOV        s275<-160>.i64
-7FD369E01D99   (rsi).i64 = MOV        s276<-168>.i64
-7FD369E01DA0   (rdi).i64 = MOV        s277<-176>.i64
-7FD369E01DA7   (r8).i64 = MOV         s278<-184>.i64
-7FD369E01DAE   (r9).i64 = MOV         s279<-192>.i64
-7FD369E01DB5   (r10).i64 = MOV        s280<-200>.i64
-7FD369E01DBC   (rcx).i64 = MOV        s281<-208>.i64
-7FD369E01DC3   (rax).i64 = MOV        s282<-216>.i64
-7FD369E01DCA           JEQ            $L9
-7FD369E01DD0  $L10: [helper]
-7FD369E01DD0   (rdi).u64 = MOV        0x7FD35C004308 (BailOutRecord).u64
-7FD369E01DDA   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E01DE4           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E01DE7           JMP            $L7
-7FD369E01DEC  
+7F8EEA3B000E   (rax).i64 = ADD        (rax).i64, 7392 (0x1CE0).i64
 
-  Line   3: eax &= 0x10;
-  Col    5: ^
-                       StatementBoundary  #0
-7FD369E01DEC  $L4: [helper]
-7FD369E01DEC   s282<-216>.i64 = MOV   (rax).i64
-7FD369E01DF3   s281<-208>.i64 = MOV   (rcx).i64
-7FD369E01DFA   s280<-200>.i64 = MOV   (r10).i64
-7FD369E01E01   s279<-192>.i64 = MOV   (r9).i64
-7FD369E01E08   s278<-184>.i64 = MOV   (r8).i64
-7FD369E01E0F   s277<-176>.i64 = MOV   (rdi).i64
-7FD369E01E16   s276<-168>.i64 = MOV   (rsi).i64
-7FD369E01E1D   s275<-160>.i64 = MOV   (rdx).i64
-7FD369E01E24   s91(s31)<-48>.i32 = MOV  s91(s31)(r11).i32
-7FD369E01E28   s113(r11).i64 = LEA    s112<-9>.u8
-7FD369E01E2C   s113<-40>.i64 = MOV    s113(r11).i64
-7FD369E01E30   s114<-152>.i64 = MOV   s114(r11).i64
-7FD369E01E37   s115(r11).var = MOV    s31<-24>.var
-7FD369E01E3B   s115<-40>.var = MOV    s115(r11).var
-7FD369E01E3F   s114(r11).i64 = MOV    s114<-152>.i64
-7FD369E01E46   arg3(s117)(rdx).i64 = MOV  s114(r11).i64
-7FD369E01E49   arg2(s118)(rsi).u64 = MOV  0x556DF824EA18 (ScriptContext).u64
-7FD369E01E53   s115(r11).var = MOV    s115<-40>.var
-7FD369E01E57   arg1(s119)(rdi).var = MOV  s115(r11).var
-7FD369E01E5A   s120(rax).u64 = MOV    Conv_ToInt32_NoObjects.u64
-7FD369E01E64   s116(rax).i32 = CALL   s120(rax).u64
-7FD369E01E67   s91(s31)<-48>.i32 = MOV  s116(rax).i32
-7FD369E01E6A   s121(rax).u8 = MOV     s112<-9>.u8
-7FD369E01E6D           TEST           s121(rax).u8, s121(rax).u8
-7FD369E01E6F   (rdx).i64 = MOV        s275<-160>.i64
-7FD369E01E76   (rsi).i64 = MOV        s276<-168>.i64
-7FD369E01E7D   (rdi).i64 = MOV        s277<-176>.i64
-7FD369E01E84   (r8).i64 = MOV         s278<-184>.i64
-7FD369E01E8B   (r9).i64 = MOV         s279<-192>.i64
-7FD369E01E92   (r10).i64 = MOV        s280<-200>.i64
-7FD369E01E99   (rcx).i64 = MOV        s281<-208>.i64
-7FD369E01EA0   (rax).i64 = MOV        s282<-216>.i64
-7FD369E01EA7           JEQ            $L5
-7FD369E01EAD  $L6: [helper]
-7FD369E01EAD   (rdi).u64 = MOV        0x7FD35C004238 (BailOutRecord).u64
-7FD369E01EB7           NOP            3 (0x3).i8
-7FD369E01EBA   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
-7FD369E01EC4           CALL           (rax).u64                                      Bailout: #0002 (BailOutOnNotPrimitive)
-7FD369E01EC7           JMP            $L7
-7FD369E01ECC           StatementBoundary  #-1
-7FD369E01ECC  $L76: [helper]
-7FD369E01ECC   (rsi).i64 = MOV        0x556DF824EA18 (ScriptContext).u64
-7FD369E01ED6   (rdi).i64 = MOV        7376 (0x1CD0).i64
-7FD369E01EDD   (rax).i64 = MOV        ProbeCurrentStack.u64
-7FD369E01EE7           JMP            (rax).i64
-7FD369E01EEA            #-1
+7F8EEA3B0015           CMP            (rsp).i64, (rax).i64
+
+7F8EEA3B0018           JLE            $L19
+
+7F8EEA3B001E           NOP            4 (0x4).i8
+
+7F8EEA3B0022           NOP            4 (0x4).i8
+
+7F8EEA3B0026           NOP            4 (0x4).i8
+
+7F8EEA3B002A           PrologStart    
+
+7F8EEA3B002A           PUSH           (rbp).i64
+
+7F8EEA3B002C   (rbp).i64 = MOV        (rsp).i64
+
+7F8EEA3B002F   (rsp).i64 = SUB        (rsp).i64, 144 (0x90).i64
+
+7F8EEA3B0036           PUSH           (r15).i64
+
+7F8EEA3B0038           PUSH           (r14).i64
+
+7F8EEA3B003A           PUSH           (r13).i64
+
+7F8EEA3B003C           PUSH           (r12).i64
+
+7F8EEA3B003E           PUSH           (rbx).i64
+
+7F8EEA3B0040   (rsp).i64 = SUB        (rsp).i64, 152 (0x98).i64
+
+7F8EEA3B0047           PrologEnd      
+
+7F8EEA3B0047   s107(rbx).u64 = MOV    0x1000000000C13.var
+
+7F8EEA3B0051   s107<-48>.u64 = MOV    s107(rbx).u64
+
+7F8EEA3B0055   s100(r12).u64 = MOV    0x7F8EEB501DF4 (Unknown).u64
+
+7F8EEA3B005F   s100<-24>.u64 = MOV    s100(r12).u64
+
+7F8EEA3B0063   s27(r13).u64 = MOV     prm1<32>.var!
+
+7F8EEA3B0067   s27<-8>.u64 = MOV      s27(r13).u64
+
+7F8EEA3B006B   s21(r14)[LikelyCanBeTaggedValue_Int].var = MOV  [s27(r13).u64+520].var
+
+7F8EEA3B0072   s21<-16>.var = MOV     s21(r14).var
+
+7F8EEA3B0076   s26(r15).i32 = XOR     s26(r15).i32, s26(r15).i32
+
+7F8EEA3B0079   s128(rax)[LikelyCanBeTaggedValue_Int].var = MOV  s21(r14)[LikelyCanBeTaggedValue_Int].var
+
+7F8EEA3B007C   s129(rcx).i64 = MOV    s128(rax)[LikelyCanBeTaggedValue_Int].var
+
+7F8EEA3B007F   s129(rcx).i64 = SHR    s129(rcx).i64, 48 (0x30).i8
+
+7F8EEA3B0083           CMP            s129(rcx).i64, 1 (0x1).i32
+
+7F8EEA3B0087           JNE            $L17
+
+7F8EEA3B008D   s80(s21)(r13).i32 = MOV_TRUNC  s128(rax)[LikelyCanBeTaggedValue_Int].i32
+
+7F8EEA3B0090  $L1: >>>>>>>>>>>>>  LOOP TOP  >>>>>>>>>>>>> Implicit call: no
+
+7F8EEA3B0090  
+
+
+
+  Line  22: i < 0x10000; i++)
+
+  Col   16: ^
+
+                       StatementBoundary  #1
+
+7F8EEA3B0090   [s100(r12).u64-16899084 <0x7F8EEA4E41E8 (Unknown)>].u32 = MOV  s26(r15).i32
+
+7F8EEA3B0098   s26(r15).i32 = INC     s26(r15).i32!
+
+7F8EEA3B009B           CMP            s80(s21)(r13).i32, 65536 (0x10000).i32
+
+7F8EEA3B00A2           JGE            $L18
+
+7F8EEA3B00A8  
+
+
+
+  Line  24: jsc58c3(0xc0, 0xc1, 0xc2, 0xc3, 0xc4, 0xc5, 0xc6, 0xc7, 0xc8, 0xc9, 0xc10, 0xc11, 0xc12, 0xc13);
+
+  Col    2: ^
+
+                       StatementBoundary  #2
+
+7F8EEA3B00A8   s127(rax).u64 = MOV    [s100(r12).u64+8732 <0x7F8EEB504010 (Unknown)>].u64
+
+7F8EEA3B00B0   s23(rdi)[LikelyCanBeTaggedValue_Object].var = MOV  [s127(rax).u64+80].var
+
+7F8EEA3B00B4   s120(rcx).u64 = LEA    [s107(rbx).u64-2899 <0x10000000000C0>].u64
+
+7F8EEA3B00BB   s120<-40>.u64 = MOV    s120(rcx).u64
+
+7F8EEA3B00BF   s119(r8).u64 = LEA     [s107(rbx).u64-2898 <0x10000000000C1>].u64
+
+7F8EEA3B00C6   s119<-56>.u64 = MOV    s119(r8).u64
+
+7F8EEA3B00CA   s118(r9).u64 = LEA     [s107(rbx).u64-2897 <0x10000000000C2>].u64
+
+7F8EEA3B00D1   s117(rax).u64 = LEA    [s107(rbx).u64-2896 <0x10000000000C3>].u64
+
+7F8EEA3B00D8   s116(rdx).u64 = LEA    [s107(rbx).u64-2895 <0x10000000000C4>].u64
+
+7F8EEA3B00DF   s115(rsi).u64 = LEA    [s107(rbx).u64-2894 <0x10000000000C5>].u64
+
+7F8EEA3B00E6   s114(r10).u64 = LEA    [s107(rbx).u64-2893 <0x10000000000C6>].u64
+
+7F8EEA3B00ED   s113(r11).u64 = LEA    [s107(rbx).u64-2892 <0x10000000000C7>].u64
+
+7F8EEA3B00F4   s112(r14).u64 = LEA    [s107(rbx).u64-2891 <0x10000000000C8>].u64
+
+7F8EEA3B00FB   s112<-64>.u64 = MOV    s112(r14).u64
+
+7F8EEA3B00FF   s111(r12).u64 = LEA    [s107(rbx).u64-2890 <0x10000000000C9>].u64
+
+7F8EEA3B0106   s26<-32>.var = MOV     s26(r15).var
+
+7F8EEA3B010A   s110(r15).u64 = LEA    [s107(rbx).u64-3 <0x1000000000C10>].u64
+
+7F8EEA3B010E   s109(rcx).u64 = LEA    [s107(rbx).u64-2 <0x1000000000C11>].u64
+
+7F8EEA3B0112   s108(rbx).u64 = LEA    [s107(rbx).u64-1 <0x1000000000C12>].u64
+
+7F8EEA3B0116   s102(r8).i64 = MOV     s23(rdi)[LikelyCanBeTaggedValue_Object].var!
+
+7F8EEA3B0119   s102(r8).i64 = SHR     s102(r8).i64, 48 (0x30).i8
+
+7F8EEA3B011D           JNE            $L9
+
+7F8EEA3B0123  $L10:
+
+7F8EEA3B0123   s106(r8).i64 = MOV     [s23(rdi)[LikelyCanBeTaggedValue_Object].var+8].i64
+
+7F8EEA3B0127   s106(r8).i64 = MOV     [s106(r8).i64+24].u64
+
+7F8EEA3B012B   s106<-72>.i64 = MOV    s106(r8).i64
+
+7F8EEA3B012F   s107(r14).u64 = MOV    s107<-48>.u64
+
+7F8EEA3B0133   arg15(s45)<128>.var = MOV  s107(r14).u64
+
+7F8EEA3B013B   arg14(s44)<120>.var = MOV  s108(rbx).u64
+
+7F8EEA3B0140   arg13(s43)<112>.var = MOV  s109(rcx).u64
+
+7F8EEA3B0145   arg12(s42)<104>.var = MOV  s110(r15).u64
+
+7F8EEA3B014A   arg11(s41)<96>.var = MOV  s111(r12).u64
+
+7F8EEA3B014F   s112(rcx).u64 = MOV    s112<-64>.u64
+
+7F8EEA3B0153   arg10(s40)<88>.var = MOV  s112(rcx).u64
+
+7F8EEA3B0158   arg9(s39)<80>.var = MOV  s113(r11).u64
+
+7F8EEA3B015D   arg8(s38)<72>.var = MOV  s114(r10).u64
+
+7F8EEA3B0162   arg7(s37)<64>.var = MOV  s115(rsi).u64
+
+7F8EEA3B0167   arg6(s36)<56>.var = MOV  s116(rdx).u64
+
+7F8EEA3B016C   arg5(s35)<48>.var = MOV  s117(rax).u64
+
+7F8EEA3B0171   s119(r11).u64 = MOV    s119<-56>.u64
+
+7F8EEA3B0175   arg3(s33)(r8).var = MOV  s119(r11).u64
+
+7F8EEA3B0178   s120(r10).u64 = MOV    s120<-40>.u64
+
+7F8EEA3B017C   arg2(s32)(rcx).var = MOV  s120(r10).u64
+
+7F8EEA3B017F   arg1(s31)(rdx).var = MOV  0x7F8EEB505030 (undefined)[Undefined].var
+
+7F8EEA3B0189   (rsi).i64 = MOV        268435471 (0x1000000F).i64
+
+7F8EEA3B0190   arg6(s121)<40>.u64 = MOV  (r9).u64
+
+7F8EEA3B0195   arg5(s122)<32>.u64 = MOV  (r8).u64
+
+7F8EEA3B019A   arg4(s123)<24>.u64 = MOV  (rcx).u64
+
+7F8EEA3B019F   arg3(s124)<16>.u64 = MOV  (rdx).u64
+
+7F8EEA3B01A4   arg2(s125)<8>.u64 = MOV  (rsi).u64
+
+7F8EEA3B01A9   arg1(s126)<0>.u64 = MOV  (rdi).u64
+
+7F8EEA3B01AD   s106(rax).i64 = MOV    s106<-72>.i64
+
+7F8EEA3B01B1           CALL           s106(rax).i64
+
+7F8EEA3B01B4  
+
+
+
+  Line  22: i++)
+
+  Col   29: ^
+
+                       StatementBoundary  #3
+
+7F8EEA3B01B4   s80(s21)(r13).i32 = INC  s80(s21)(r13).i32!
+
+7F8EEA3B01B7   s107(rbx).i64 = MOV    s107(r14).i64
+
+7F8EEA3B01BA   s100(r12).u64 = MOV    s100<-24>.u64
+
+7F8EEA3B01BE   s26(r15).var = MOV     s26<-32>.var
+
+7F8EEA3B01C2           JMP            $L1
+
+7F8EEA3B01C7  $L18:
+
+7F8EEA3B01C7   s26<-32>.var = MOV     s26(r15).var
+
+7F8EEA3B01CB           StatementBoundary  #4
+
+7F8EEA3B01CB           StatementBoundary  #-1
+
+7F8EEA3B01CB   s101(rax).i32 = MOV_TRUNC  s80(s21)(r13).i32
+
+7F8EEA3B01CE   s101(rax).var = BTS    s101(rax).var, 48 (0x30).i8
+
+7F8EEA3B01D3   s21(rbx)[CanBeTaggedValue_Int].var = MOV  s101(rax).var
+
+7F8EEA3B01D6   s27(r11).u64 = MOV     s27<-8>.u64
+
+7F8EEA3B01DA   [s27(r11).u64+520].var = MOV  s21(rbx)[CanBeTaggedValue_Int].var!
+
+7F8EEA3B01E1   s26(r10).var = MOV     s26<-32>.var
+
+7F8EEA3B01E5   s100(r9).u64 = MOV     s100<-24>.u64
+
+7F8EEA3B01E9   [s100(r9).u64 <0x7F8EEB501DF4 (Unknown)>].u32 = MOV  s26(r10).u32
+
+7F8EEA3B01EC   s99(rax).i64 = MOV     132 (0x84).i64
+
+7F8EEA3B01F3  $L13 (Epilogue):
+
+7F8EEA3B01F3   (rsp).i64 = ADD        (rsp).i64, 152 (0x98).i64
+
+7F8EEA3B01FA   (rbx).i64 = POP        
+
+7F8EEA3B01FC   (r12).i64 = POP        
+
+7F8EEA3B01FE   (r13).i64 = POP        
+
+7F8EEA3B0200   (r14).i64 = POP        
+
+7F8EEA3B0202   (r15).i64 = POP        
+
+7F8EEA3B0204   (rsp).i64 = MOV        (rbp).i64
+
+7F8EEA3B0207   (rbp).i64 = POP        
+
+7F8EEA3B0209           RET            0 (0x0).i32, (rax).i64
+
+7F8EEA3B020A           FunctionExit   
+
+7F8EEA3B020A           StatementBoundary  #-1
+
+7F8EEA3B020A  $L17: [helper]
+
+7F8EEA3B020A   s130(rdi).var = MOV    s21(r14)[LikelyCanBeTaggedValue_Int].var
+
+7F8EEA3B020D   s133(rax).u64 = MOV    GetNonzeroInt32Value_NoTaggedIntCheck.u64
+
+7F8EEA3B0217   s131(rax).i32 = CALL   s133(rax).u64
+
+7F8EEA3B021A   s80(s21)(r13).i32 = MOV  s131(rax).i32
+
+7F8EEA3B021D           TEST           s80(s21)(r13).i32, s80(s21)(r13).i32
+
+7F8EEA3B0220           JNE            $L1
+
+7F8EEA3B0226  $L16: [helper]
+
+7F8EEA3B0226   [s100(r12).u64-189794376 <0x7F8EE00015AC (&BailOutKind)>].u32 = MOV  1 (0x1).u32
+
+7F8EEA3B0232   [s100(r12).u64-189794380 <0x7F8EE00015A8 (Unknown)>].u32 = MOV  4294967295 (0xFFFFFFFF).u32
+
+7F8EEA3B023E   s134(rax).u64 = LEA    [s100(r12).u64-17018356 <0x7F8EEA4C7000 (FunctionBody [Global code (#1.0), #1])>].u64
+
+7F8EEA3B0246   [s100(r12).u64-189794348 <0x7F8EE00015C8 (Unknown)>].u64 = MOV  s134(rax).u64
+
+7F8EEA3B024E  $L12: [helper]
+
+7F8EEA3B024E   (rdi).u64 = MOV        0x7F8EE0001568 (BailOutRecord).u64
+
+7F8EEA3B0258   (rax).u64 = MOV        SaveAllRegistersAndBailOut.u64
+
+7F8EEA3B0262           CALL           (rax).u64                                      Bailout: #001c (BailOutShared)
+
+7F8EEA3B0265           JMP            $L13
+
+7F8EEA3B0267  
+
+
+
+  Line  24: jsc58c3(0xc0, 0xc1, 0xc2, 0xc3, 0xc4, 0xc5, 0xc6, 0xc7, 0xc8, 0xc9, 0xc10, 0xc11, 0xc12, 0xc13);
+
+  Col    2: ^
+
+                       StatementBoundary  #2
+
+7F8EEA3B0267  $L9: [helper]
+
+7F8EEA3B0267   s142<-136>.i64 = MOV   (rdi).i64
+
+7F8EEA3B026E   s141<-128>.i64 = MOV   (rcx).i64
+
+7F8EEA3B0272   s140<-120>.i64 = MOV   (r11).i64
+
+7F8EEA3B0276   s139<-112>.i64 = MOV   (r10).i64
+
+7F8EEA3B027A   s138<-104>.i64 = MOV   (rsi).i64
+
+7F8EEA3B027E   s137<-96>.i64 = MOV    (rdx).i64
+
+7F8EEA3B0282   s136<-88>.i64 = MOV    (rax).i64
+
+7F8EEA3B0286   s135<-80>.i64 = MOV    (r9).i64
+
+7F8EEA3B028A   arg2(s103)(rsi).u64 = MOV  0x5622091B5A18 (ScriptContext).u64
+
+7F8EEA3B0294   arg1(s104)(rdi).u32 = MOV  -2146823286 (0xFFFFFFFF800A138A).u32
+
+7F8EEA3B0299   s105(rax).u64 = MOV    Op_RuntimeTypeError.u64
+
+7F8EEA3B02A3           CALL           s105(rax).u64
+
+7F8EEA3B02A6   (r9).i64 = MOV         s135<-80>.i64
+
+7F8EEA3B02AA   (rax).i64 = MOV        s136<-88>.i64
+
+7F8EEA3B02AE   (rdx).i64 = MOV        s137<-96>.i64
+
+7F8EEA3B02B2   (rsi).i64 = MOV        s138<-104>.i64
+
+7F8EEA3B02B6   (r10).i64 = MOV        s139<-112>.i64
+
+7F8EEA3B02BA   (r11).i64 = MOV        s140<-120>.i64
+
+7F8EEA3B02BE   (rcx).i64 = MOV        s141<-128>.i64
+
+7F8EEA3B02C2   (rdi).i64 = MOV        s142<-136>.i64
+
+7F8EEA3B02C9           JMP            $L10
+
+7F8EEA3B02CE           StatementBoundary  #-1
+
+7F8EEA3B02CE  $L19: [helper]
+
+7F8EEA3B02CE   (rsi).i64 = MOV        0x5622091B5A18 (ScriptContext).u64
+
+7F8EEA3B02D8   (rdi).i64 = MOV        7392 (0x1CE0).i64
+
+7F8EEA3B02DF   (rax).i64 = MOV        ProbeCurrentStack.u64
+
+7F8EEA3B02E9           JMP            (rax).i64
+
+7F8EEA3B02EC           StatementBoundary  #-1
+
+-----------------------------------------------------------------------------
+
+Function jsc58c3 ( (#1.1), #2)                    Instr Count:858		Size:3811
+
+
+
+7F8EEA3B1000           FunctionEntry  
+
+7F8EEA3B1000   (rax).i64 = MOV        0x562209183810 (&StackLimit).u64
+
+7F8EEA3B100A   (rax).i64 = MOV        [(rax).i64].i64
+
+7F8EEA3B100D   (rax).i64 = ADD        (rax).i64, 7376 (0x1CD0).i64
+
+7F8EEA3B1014           CMP            (rsp).i64, (rax).i64
+
+7F8EEA3B1017           JLE            $L76
+
+7F8EEA3B101D           NOP            2 (0x2).i8
+
+7F8EEA3B101F           PrologStart    
+
+7F8EEA3B101F           PUSH           (rbp).i64
+
+7F8EEA3B1021   (rbp).i64 = MOV        (rsp).i64
+
+7F8EEA3B1024   (rsp).i64 = SUB        (rsp).i64, 224 (0xE0).i64
+
+7F8EEA3B102B           PUSH           (r15).i64
+
+7F8EEA3B102D           PUSH           (r14).i64
+
+7F8EEA3B102F           PUSH           (r13).i64
+
+7F8EEA3B1031           PUSH           

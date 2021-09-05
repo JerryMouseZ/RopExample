@@ -1,6 +1,7 @@
+#define _GNU_SOURCE
+#include <stdio.h>
 #include <sys/ptrace.h>
 #include <sys/reg.h>
-#include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h> 
 #include <stdlib.h>
@@ -8,10 +9,13 @@
 #include <sys/wait.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <string.h>
+#include <ctype.h>
 
 int pipefd[2];
 pid_t start_child(const char* program, char **argv)
 {
+    //we need a readline function
     pid_t pid = fork();
     if (pid < 0) {
         perror("fork");
@@ -40,14 +44,24 @@ pid_t start_child(const char* program, char **argv)
 
 int print_pipe(int fd)
 {
-    char ch;
-    int ret;
-    // blocking here
-    while((ret = read(fd, &ch, 1)) > 0)
+    FILE* in = fdopen(fd, "r");
+    char *line = NULL;
+    int nread = 0;
+    int len = 0;
+    while((nread = getline(&line, &len, in)) != -1)
     {
-        write(1, &ch, 1);
+         printf("%s\n", line);
+        if(strstr(line, "&= 0x11") != NULL){
+            for(int i = 0; i < 10; ++i)
+            {
+                printf("[trace]%s\n", line);
+                getline(&line, &len, in);
+            }
+            // we get the line
+            printf("%s\n", line);
+        }
     }
-    return ret;
+    free(line);
 }
 
 
@@ -71,11 +85,10 @@ int main(){
 
     ptrace(PTRACE_CONT, child, 0, 0);
     waitpid(child, &status, 0);
-    print_pipe(pipefd[0]);
 
-    if(WIFEXITED(status)){
-        printf("already done\n");
-    }
+    ptrace(PTRACE_SINGLESTEP, child, 0, 0);
+    waitpid(child, &status, 0);
+    print_pipe(pipefd[0]);
 
     ptrace(PTRACE_DETACH, child, 0, 0);
     close(pipefd[0]);
