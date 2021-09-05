@@ -1,0 +1,25 @@
+function jsc58c3(eax, ecx, r9d, r8d, edi, esi, edx, r15d, r14d, r13d, r12d, ebx, r1, r2)
+{
+    eax &= 0x10;
+    ecx &= 0x11;
+    r9d &= 0x12;
+    r8d &= 0x13;
+    edi &= 0x14;
+    esi &= 0x15;
+    edx &= 0x16;
+    r15d &= 0x17;
+    r14d &= 0x18;
+    r13d &= 0x19;
+    r12d &= 0x20;
+    ebx &= 0x21;
+    r1 &= 0x22;
+    r2 &= 0x23;
+    let s = eax + ebx * 2 - 0x3d; 
+   return ecx + r9d + r8d + edi + esi + edx + r15d + r14d + r13d + r12d + r1 + r2 + s;
+}
+
+
+for(let i = 0; i < 0x10000; i++)
+{
+	jsc58c3(0xc0, 0xc1, 0xc2, 0xc3, 0xc4, 0xc5, 0xc6, 0xc7, 0xc8, 0xc9, 0xc10, 0xc11, 0xc12, 0xc13);
+}
