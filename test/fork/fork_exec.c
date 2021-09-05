@@ -49,26 +49,30 @@ int main(){
         perror("fork");
         exit(-1);
     }
-
-    waitpid(child, &status, 0);
-    close(pipefd[1]);
-
-    //pthrace的时候会卡住，直到detach才能运行完
-    long orig_eax = ptrace(PTRACE_PEEKUSER,
-                      child, 8 * ORIG_RAX,
-                      NULL);
-
-    printf("The child made a "
-           "system call %ld\n", orig_eax);
     
-    ptrace(PTRACE_DETACH, child, NULL, NULL);
-    char ch;
-    while(read(pipefd[0], &ch, 1) > 0)
+    close(pipefd[1]);
+    while(1)
     {
-        printf("%c", ch);
-    }
-    printf("\n");
+        waitpid(child, &status, 0);
+        if(WIFEXITED(status))
+            break;
 
+        //pthrace的时候会卡住，直到detach才能运行完
+        long orig_eax = ptrace(PTRACE_PEEKUSER,
+                               child, 8 * ORIG_RAX,
+                               NULL);
+
+        printf("The child made a "
+               "system call %ld\n", orig_eax);
+
+        ptrace(PTRACE_DETACH, child, NULL, NULL);
+        char ch;
+        while(read(pipefd[0], &ch, 1) > 0)
+        {
+            printf("%c", ch);
+        }
+        printf("\n");
+    }
     exit(0);
     return 0;
 }
