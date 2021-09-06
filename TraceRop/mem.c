@@ -1,10 +1,4 @@
-#include <string.h>
-#include <inttypes.h>
-#include <errno.h>  
-#include <assert.h>
-#include <sys/ptrace.h>
-#include <capstone/capstone.h>
-
+#include "mem.h"
 /* Reads data from the target process, and places it on the `dest_buffer`
  * using either `ptrace` or `pread` on `/proc/pid/mem`.
  * The target process is not passed, but read from the static peekbuf.
@@ -54,30 +48,29 @@ size_t readmemory(int pid, uint8_t *dest_buffer, const char *target_address, siz
 }
 
 int disas_raw_code(unsigned char *custom_code, size_t code_size, unsigned long start_addr){
-	csh handle;
-	cs_insn *insn;
-	size_t count;
+    csh handle;
+    cs_insn *insn;
+    size_t count;
 
-	printf("%ld\n", sizeof(custom_code));
+    if (cs_open(CS_ARCH_X86, CS_MODE_64, &handle) != CS_ERR_OK)
+        return -1;
 
-	if (cs_open(CS_ARCH_X86, CS_MODE_64, &handle) != CS_ERR_OK)
-		return -1;
+    count = cs_disasm(handle,  custom_code, code_size, start_addr, 0, &insn);
 
-	count = cs_disasm(handle,  custom_code, code_size-1, start_addr, 0, &insn);
+    if (count > 0) {
+        size_t j;
+        for (j = 0; j < count; j++) {
+            printf("0x%" PRIx64 ":\t%s\t\t%s\n", insn[j].address, insn[j].mnemonic,
+                   insn[j].op_str);
+            // printf("%" PRIu16 "\n", insn[j].size);
+        }
+        printf("\n\n");
 
-	if (count > 0) {
-		size_t j;
-		for (j = 0; j < count; j++) {
-			printf("0x%" PRIx64 ":\t%s\t\t%s\n", insn[j].address, insn[j].mnemonic,
-					insn[j].op_str);
-		}
+        cs_free(insn, count);
+    } else
+        printf("ERROR: Failed to disassemble given code!\n");
 
-		cs_free(insn, count);
-	} else
-		printf("ERROR: Failed to disassemble given code!\n");
+    cs_close(&handle);
 
-	cs_close(&handle);
-
-	return 0;
+    return 0;
 }
-
